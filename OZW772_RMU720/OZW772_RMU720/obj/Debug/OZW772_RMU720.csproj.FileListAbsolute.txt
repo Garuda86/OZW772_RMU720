@@ -1,0 +1,7 @@
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\OZW772_RMU720\obj\Debug\OZW772_RMU720.dll
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\OZW772_RMU720\obj\Debug\OZW772_RMU720.pdb
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720.dll
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720.pdb
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720.tlb
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720.dll.config
+C:\Program Files (x86)\InSAT\MasterSCADA\NLog.config

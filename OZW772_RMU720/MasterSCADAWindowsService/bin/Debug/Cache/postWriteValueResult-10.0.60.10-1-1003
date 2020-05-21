@@ -1,0 +1,46 @@
+<!-- &copy; Siemens AG 2007 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OZW772.01</title>
+ <link rel="stylesheet" type="text/css" href="./layout/default/css/dialog/valme.css" />
+<link rel="stylesheet" type="text/css" href="./layout/default/css/dialog/dialog_style.css" />
+<script src="./js/dialog/valme.js" type="text/javascript"></script>
+<script src="./js/dialog/dialog_common.js" type="text/javascript"></script>
+</head>
+<body class="dialog">
+<form name="dialogform" action="./dialog.app?SessionId=0e491448-270c-4e6e-8711-96eaa92d5013" method="post" enctype="multipart/form-data" accept-charset="UTF-8">
+<input type="hidden" name="action" value="update"/>
+<input type="hidden" name="DpDescription" value="COzwValME8"/>
+<input type="hidden" name="id" value="1003"/>
+<div class="control-position">
+<div class="control-row-title">
+<div class="control-cell-title">Economy plant optg mode
+</div>
+</div>
+<div class="control-row-input">
+<div class="control-cell-input">
+<div class="control-pos-input">
+<select name="value" class="input-large" size="1">
+<option value="0" selected>No sustained mode</option>
+<option value="1">Sustained mode</option>
+</select>
+</div>
+</div>
+</div>
+<div class="control-row-button" >
+<div class="control-cell-button" >
+<div class="dialog submit" >
+ <input name="OK" type="button" class="buttons"  value="OK" onclick="document.dialogform.submit()" title="" /></div>
+<div class="dialog cancel">
+<input name="cancel" type="button"  class="buttons" value="Cancel" onclick="cancelDialog()" title="" /></div>
+</div>
+</div>
+</div>
+</form>
+<script type="text/javascript">
+InitValME();
+</script>
+</body>
+</html>

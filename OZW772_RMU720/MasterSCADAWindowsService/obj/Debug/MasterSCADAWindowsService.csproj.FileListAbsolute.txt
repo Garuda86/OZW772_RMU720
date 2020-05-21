@@ -1,0 +1,10 @@
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\bin\Debug\MasterSCADAWindowsService.exe.config
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\bin\Debug\MasterSCADAWindowsService.exe
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\bin\Debug\MasterSCADAWindowsService.pdb
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\obj\Debug\MasterSCADAWindowsService.exe
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\obj\Debug\MasterSCADAWindowsService.pdb
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\bin\Debug\NLog.config
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\bin\Debug\NLog.dll
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\bin\Debug\NLog.xml
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\bin\Debug\Newtonsoft.Json.dll
+C:\Program Files (x86)\InSAT\MasterSCADA\OZW772_RMU720\MasterSCADAWindowsService\bin\Debug\Newtonsoft.Json.xml

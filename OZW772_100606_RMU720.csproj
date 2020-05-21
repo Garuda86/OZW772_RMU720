@@ -1,0 +1,943 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E88867DD-8A47-4155-864F-12A8A03D4FF2}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <NoStandardLibraries>false</NoStandardLibraries>
+    <AssemblyName>ClassLibrary</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>.\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <RegisterForComInterop>true</RegisterForComInterop>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <RootNamespace>OZW772_100606_RMU720</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FB, Version=3.6.0.50835, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\FB.dll</HintPath>
+    </Reference>
+    <Reference Include="InSAT.Library, Version=3.6.0.50835, Culture=neutral, PublicKeyToken=ba56f5ab10f997f3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\InSAT.Library.dll</HintPath>
+    </Reference>
+    <Reference Include="Insat.Opc, Version=1.1.3.3, Culture=neutral, PublicKeyToken=2278bdb63893b34f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\Insat.Opc.dll</HintPath>
+    </Reference>
+    <Reference Include="InternalModules, Version=3.6.0.50835, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\InternalModules.dll</HintPath>
+    </Reference>
+    <Reference Include="MasterSCADA.Common, Version=3.6.0.50835, Culture=neutral, PublicKeyToken=ba56f5ab10f997f3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>.\MasterSCADA.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="MasterSCADALib, Version=30.30.0.0, Culture=neutral, PublicKeyToken=ba56f5ab10f997f3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>.\MasterSCADALib.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="3DCtrl.chm" />
+    <None Include="API\MasterPLC\PLATFORM\msdos\imsdosf.prj" />
+    <None Include="API\MasterPLC\PLATFORM\msdos\lib\proc_i.lib" />
+    <None Include="API\MasterPLC\PLATFORM\msdos\lib\WATTCPLG.LIB" />
+    <None Include="API\MasterPLC\PLATFORM\win32\lib\MasterPLCLib.lib" />
+    <None Include="API\MasterPLC\PLATFORM\win32\MasterPLCDbg.vcxproj" />
+    <None Include="API\MasterPLC\PLATFORM\wince_userfb\lib\I7000CE.lib" />
+    <None Include="API\MasterPLC\PLATFORM\wince_userfb\lib\UARTCE.lib" />
+    <None Include="API\MasterPLC\PLATFORM\wince_userfb\lib\wince_lib.lib" />
+    <None Include="API\MasterPLC\PLATFORM\wince_userfb\lib\WinconSDK.lib" />
+    <None Include="API\MasterPLC\PLATFORM\wince_userfb\wince_userfb.vcp" />
+    <None Include="API\MasterPLC\PLATFORM\wince_userfb\wince_userfb.vcw" />
+    <None Include="API\MasterPLC\Создание драйвера для MasterPLC.doc" />
+    <None Include="API\MasterPLC\Создание ФБ для MasterPLC.doc" />
+    <None Include="API\MasterSCADA\MasterSCADA API.chm" />
+    <None Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyFbLibrary.aps" />
+    <None Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyFbLibrary.vcproj" />
+    <None Include="API\MasterSCADA\NewLib %28VS6%29\NewLib.clw" />
+    <None Include="API\MasterSCADA\Автоматизация разработки в MasterSCADA.doc" />
+    <None Include="API\MasterSCADA\Все по ФБ %28VS6%29.doc" />
+    <None Include="API\MasterSCADA\Все по ФБ %28VS7%29.doc" />
+    <None Include="API\MasterSCADA\Создание ActiveX на C#.doc" />
+    <None Include="API\MasterSCADA\Создание модулей ввода вывода на C#.doc" />
+    <None Include="API\MasterSCADA\Создание ФБ на C#.doc" />
+    <None Include="Config\MasterPLC\iPAC8000\Ethernet\7188XW.INI" />
+    <None Include="Config\MasterPLC\iPAC8000\Ethernet\autoexec.bat" />
+    <None Include="Config\MasterPLC\MSDOS\TCP.CFG" />
+    <None Include="Config\MasterPLC\PLCBT5000\bsp_update.tar" />
+    <None Include="Config\MasterPLC\PLCBT5000\daemonizer" />
+    <None Include="Config\MasterPLC\PLCBT5000\libow-2.7.so.28" />
+    <None Include="Config\MasterPLC\PLCBT5000\libowcapi-2.7.so.28" />
+    <None Include="Config\MasterPLC\PLCBT5000\mplctunestart" />
+    <None Include="Config\MasterPLC\PLCBT5000\S80mplc" />
+    <None Include="Config\MasterPLC\PLCTUNEAIN\daemonizer" />
+    <None Include="Config\MasterPLC\PLCTUNEAIN\libmodbus.so" />
+    <None Include="Config\MasterPLC\PLCTUNEAIN\libmodbus.so.5.0.2" />
+    <None Include="Config\MasterPLC\PLCTUNEAIN\libow-2.7.so.28" />
+    <None Include="Config\MasterPLC\PLCTUNEAIN\libowcapi-2.7.so.28" />
+    <None Include="Config\MasterPLC\PLCTUNEAIN\mplctunestart" />
+    <None Include="Config\MasterPLC\PLCTUNEAIN\S80mplc" />
+    <None Include="Config\Metrology\attestationsertificate.xls" />
+    <None Include="Config\Metrology\channelsList.xls" />
+    <None Include="Config\Metrology\variableprotocol.xls" />
+    <None Include="Config\Report\Default\Stimulsoft.Report.config" />
+    <None Include="Config\Report\Default\Stimulsoft.Report.settings" />
+    <None Include="Config\Styles\Trend\Дым.baml" />
+    <None Include="Config\Styles\Trend\Классический.baml" />
+    <None Include="Config\Styles\Trend\Стекло.baml" />
+    <None Include="Config\Templates\Journal\Журнал базовый.baml" />
+    <None Include="Config\Templates\Journal\Журнал минимальный.baml" />
+    <None Include="Config\Templates\Journal\Журнал продвинутый.baml" />
+    <None Include="Config\Templates\Journal\Только просмотр.baml" />
+    <None Include="Config\Templates\Journal\Только сообщения.baml" />
+    <None Include="Config\Templates\Trend\Базовый.baml" />
+    <None Include="Config\Templates\Trend\Внешний вид.baml" />
+    <None Include="Config\Templates\Trend\Минимальный.baml" />
+    <None Include="Config\Templates\Trend\Продвинутый.baml" />
+    <None Include="Config\Templates\Trend\Таблица значений.baml" />
+    <None Include="Config\Templates\Trend\Только графики.baml" />
+    <None Include="Config\ThemeColors\Trend\Голубой.baml" />
+    <None Include="Config\ThemeColors\Trend\Оранжевый.baml" />
+    <None Include="Config\ThemeColors\Trend\Розовый.baml" />
+    <None Include="Config\ThemeColors\Trend\Салатовый.baml" />
+    <None Include="Config\ThemeColors\Trend\Черно-белый.baml" />
+    <None Include="CTRL.chm" />
+    <None Include="Ctrls.chm" />
+    <None Include="data\modes\C64CSharp.xshd" />
+    <None Include="data\modes\CSharp-Mode-VSEnh.xshd" />
+    <None Include="data\options\SharpDevelopControlLibrary.sdcl" />
+    <None Include="del_arch.bat" />
+    <None Include="DOC.XSD">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Doc\ErrorsForm.doc" />
+    <None Include="Doc\license.pdf" />
+    <None Include="Doc\readme.rtf" />
+    <None Include="Doc\WhatsNew.rtf" />
+    <None Include="Doc\Запрос.rtf" />
+    <None Include="Doc\Интернет-клиент MasterSCADA.doc" />
+    <None Include="Doc\Локализация MasterSCADA.pdf" />
+    <None Include="Doc\Настройка DCOM для Windows 7.doc" />
+    <None Include="Doc\Настройка DCOM для Windows XP SP 2.doc" />
+    <None Include="excel_query.reg" />
+    <None Include="factures.chm" />
+    <None Include="FB_vent.chm" />
+    <None Include="firebird\aliases.conf" />
+    <None Include="firebird\firebird.conf" />
+    <None Include="firebird\firebird.msg" />
+    <None Include="firebird\intl\fbintl.conf" />
+    <None Include="firebird\Microsoft.VC80.CRT.manifest" />
+    <None Include="GrPrim.chm" />
+    <None Include="GuiCtrl.chm" />
+    <None Include="InSAT.Library.tlb" />
+    <None Include="MasterGraph.chm" />
+    <None Include="MasterPLC_.chm" />
+    <None Include="MasterSCADA.chm" />
+    <None Include="MasterSCADA.Common.tlb" />
+    <None Include="MasterSCADA.exe.config" />
+    <None Include="MasterSCADA_D.bat" />
+    <None Include="MasterSCADA_eng.docx" />
+    <None Include="Metrology.chm" />
+    <None Include="MSPalette.chm" />
+    <None Include="netreg.log" />
+    <None Include="OZW772_RMU720.tlb" />
+    <None Include="OZW772_RMU720\OZW772_RMU720\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="OZW772_RMU720\OZW772_RMU720\obj\Debug\OZW772_RMU720.csprojResolveAssemblyReference.cache" />
+    <None Include="OZW772_RMU720\OZW772_RMU720\obj\OZW772_RMU720.csproj.UnmanagedRegistration.cache" />
+    <None Include="Presentation\MasterSCADA - быстрый старт.pps" />
+    <None Include="Presentation\MasterSCADA - возможности.pps" />
+    <None Include="reg_net.bat" />
+    <None Include="reg_user.bat" />
+    <None Include="Report.chm" />
+    <None Include="Scheme.chm" />
+    <None Include="StimulsoftThemes\001_Moray.sts" />
+    <None Include="StimulsoftThemes\002_Fern.sts" />
+    <None Include="StimulsoftThemes\003_Anthracite.sts" />
+    <None Include="StimulsoftThemes\004_Chestnut.sts" />
+    <None Include="StimulsoftThemes\005_BlueSteel.sts" />
+    <None Include="StimulsoftThemes\006_SeaFoam.sts" />
+    <None Include="StimulsoftThemes\007_Flaxen.sts" />
+    <None Include="StimulsoftThemes\008_Evening.sts" />
+    <None Include="StimulsoftThemes\009_DarkAzure.sts" />
+    <None Include="StimulsoftThemes\010_Marengo.sts" />
+    <None Include="StimulsoftThemes\011_Ocher.sts" />
+    <None Include="МастерТренд.chm" />
+    <None Include="Объектная_модель.chm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="3DCtrl.dll" />
+    <Content Include="6\OZW_100606_RMU720.bmp" />
+    <Content Include="6\OZW_100606_RMU720.xml" />
+    <Content Include="Addins\CSharpBinding\CSharpBinding.addin" />
+    <Content Include="Addins\CSharpBinding\CSharpBinding.dll" />
+    <Content Include="Addins\Debugger\Debugger.AddIn.addin" />
+    <Content Include="Addins\SharpSnippetCompiler.addin" />
+    <Content Include="Addins\STBinding\CSharpBinding.addin" />
+    <Content Include="Addins\STBinding\CSharpBinding.dll" />
+    <Content Include="Addins\STBinding\STBinding.addin" />
+    <Content Include="Addins\STBinding\STBinding.dll" />
+    <Content Include="Aga.Controls.dll" />
+    <Content Include="AlarmSrv.dll" />
+    <Content Include="API\MasterPLC\PLATFORM\win32\MasterPLCDbg.vcproj.vspscc" />
+    <Content Include="API\MasterPLC\PLATFORM\win32\ReadMe.txt" />
+    <Content Include="API\MasterPLC\PLATFORM\win32\stdafx.cpp" />
+    <Content Include="API\MasterPLC\PLATFORM\win32\stdafx.h" />
+    <Content Include="API\MasterPLC\src\communic\r_com.h" />
+    <Content Include="API\MasterPLC\src\communic\r_err.h" />
+    <Content Include="API\MasterPLC\src\config.h" />
+    <Content Include="API\MasterPLC\src\drivers\adam\5510DRV.H" />
+    <Content Include="API\MasterPLC\src\drivers\drv_user.h" />
+    <Content Include="API\MasterPLC\src\fb\fb.h" />
+    <Content Include="API\MasterPLC\src\fb\insat\ins_comm.h" />
+    <Content Include="API\MasterPLC\src\includes.h" />
+    <Content Include="API\MasterPLC\src\ipc\7188dos.h" />
+    <Content Include="API\MasterPLC\src\ipc\7188E.H" />
+    <Content Include="API\MasterPLC\src\ipc\7188XA.H" />
+    <Content Include="API\MasterPLC\src\ipc\7188XB.H" />
+    <Content Include="API\MasterPLC\src\ipc\8000.H" />
+    <Content Include="API\MasterPLC\src\ipc\8000E.H" />
+    <Content Include="API\MasterPLC\src\ipc\8017H.H" />
+    <Content Include="API\MasterPLC\src\ipc\8024.H" />
+    <Content Include="API\MasterPLC\src\ipc\8073.H" />
+    <Content Include="API\MasterPLC\src\ipc\8KE80.H" />
+    <Content Include="API\MasterPLC\src\ipc\I7188.H" />
+    <Content Include="API\MasterPLC\src\ipc\TCPIP.H" />
+    <Content Include="API\MasterPLC\src\main.h" />
+    <Content Include="API\MasterPLC\src\protect.h" />
+    <Content Include="API\MasterPLC\src\task.h" />
+    <Content Include="API\MasterPLC\src\user\drv_exam.c" />
+    <Content Include="API\MasterPLC\src\user\fb_exmpl.c" />
+    <Content Include="API\MasterPLC\src\user\user_def.c" />
+    <Content Include="API\MasterSCADA\common\CatIdConst.h" />
+    <Content Include="API\MasterSCADA\common\commonstructs.h" />
+    <Content Include="API\MasterSCADA\common\CommonVFBDefs.h" />
+    <Content Include="API\MasterSCADA\common\config.h" />
+    <Content Include="API\MasterSCADA\common\Dbg_util.h" />
+    <Content Include="API\MasterSCADA\common\dbg_util_short.h" />
+    <Content Include="API\MasterSCADA\common\debug_util.h" />
+    <Content Include="API\MasterSCADA\common\debug_util.idl" />
+    <Content Include="API\MasterSCADA\common\debug_util_i.c" />
+    <Content Include="API\MasterSCADA\common\FreeStructDefs.h" />
+    <Content Include="API\MasterSCADA\common\FunkBlock.h" />
+    <Content Include="API\MasterSCADA\common\FunkBlock.idl" />
+    <Content Include="API\MasterSCADA\common\FunkBlock_i.c" />
+    <Content Include="API\MasterSCADA\common\IPersistStreamInitImplVer.h" />
+    <Content Include="API\MasterSCADA\common\MSHtmlHelpPropPage.h" />
+    <Content Include="API\MasterSCADA\common\ms_utils.h" />
+    <Content Include="API\MasterSCADA\common\opcaedef.h" />
+    <Content Include="API\MasterSCADA\common\opchda.h" />
+    <Content Include="API\MasterSCADA\common\RightMacros.h" />
+    <Content Include="API\MasterSCADA\common\Rights.h" />
+    <Content Include="API\MasterSCADA\common\rtobjects.h" />
+    <Content Include="API\MasterSCADA\common\rtobjects.idl" />
+    <Content Include="API\MasterSCADA\common\rtobjects_i.c" />
+    <Content Include="API\MasterSCADA\common\ScanMethod.h" />
+    <Content Include="API\MasterSCADA\common\ScanMethod.idl" />
+    <Content Include="API\MasterSCADA\common\ScanMethod_i.c" />
+    <Content Include="API\MasterSCADA\common\Vav.h" />
+    <Content Include="API\MasterSCADA\common\Vav.idl" />
+    <Content Include="API\MasterSCADA\common\VavTimer.h" />
+    <Content Include="API\MasterSCADA\common\VavTimer.idl" />
+    <Content Include="API\MasterSCADA\common\VavTimer_i.c" />
+    <Content Include="API\MasterSCADA\common\Vav_i.c" />
+    <Content Include="API\MasterSCADA\common\vav_private.h" />
+    <Content Include="API\MasterSCADA\common\vav_private.idl" />
+    <Content Include="API\MasterSCADA\common\VVComObj.h" />
+    <Content Include="API\MasterSCADA\common\VVComObj.idl" />
+    <Content Include="API\MasterSCADA\common\VVComObj_i.c" />
+    <Content Include="API\MasterSCADA\common\vvrt.h" />
+    <Content Include="API\MasterSCADA\common\vvrt.idl" />
+    <Content Include="API\MasterSCADA\common\vvrt_i.c" />
+    <Content Include="API\MasterSCADA\Examples\Examples.sln" />
+    <Content Include="API\MasterSCADA\Examples\Examples.vssscc" />
+    <Content Include="API\MasterSCADA\Examples\Examples\Examples.csproj" />
+    <Content Include="API\MasterSCADA\Examples\Examples\Examples.csproj.user" />
+    <Content Include="API\MasterSCADA\Examples\Examples\Examples.csproj.vspscc" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\DynamicProperties\DynamicPropertiesExample.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\DynamicProperties\DynamicPropertiesExample.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\GetDataFromDB\GetDataFromDB.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\GetDataFromDB\GetDataFromDB.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\NetRemoting\NetRemotingFB.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\NetRemoting\NetRemotingFB.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\Pins\CusomGroups\CustomGroupsFB.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\Pins\CusomGroups\CustomGroupsFB.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\Pins\ItemsRange\CountProperty\CountProperty.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\Pins\ItemsRange\CountProperty\CountProperty.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\PropPages\DynamicPinsAndpropPageExample\DynamicPinsAndPropPageExample.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\PropPages\DynamicPinsAndpropPageExample\DynamicPinsAndPropPageExample.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\TestFB\TestFB.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\TestFB\TestFB.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\WorkWithOperator\WorkWithOperatorExample.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\FB\WorkWithOperator\WorkWithOperatorExample.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\SystemTree\InternalModules\SimpleModule\SimpleModule.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\Blinking\Blinking.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\Blinking\Blinking.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\DataExchangeBetweenFbAndControl\DataExchangeBetweenFbAndControl.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\DataExchangeBetweenFbAndControl\DataExchangeBetweenFbAndControl.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\FormOpening\FormOpening.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\FormOpening\FormOpening.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\MultiControls\MultiControls.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\MultiControls\MultiControls.xml" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\WindowlessControl\MyWindowlessControl.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\WindowlessControl\MyWindowlessFB.bmp" />
+    <Content Include="API\MasterSCADA\Examples\Examples\VFB\WindowlessControl\MyWindowlessFB.xml" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\bitmap1.bmp" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\CommonPinDefs.h" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyFbLibrary.cpp" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyFbLibrary.def" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyFbLibrary.idl" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyFbLibrary.rc" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyFbLibrary.rgs" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyFbLibrary.sln" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyFbLibrary.vcproj.vspscc" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorCtrl.bmp" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorCtrl.cpp" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorCtrl.h" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorCtrl.htm" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorCtrl.rgs" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorCtrlPropPage.cpp" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorCtrlPropPage.h" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorCtrlPropPage.rgs" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorFb.cpp" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorFb.h" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorFb.rgs" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorFbPropPage.cpp" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorFbPropPage.h" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorFbPropPage.rgs" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\MyIndicatorIcon.bmp" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\ReadMe.txt" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\Resource.h" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\stdafx.cpp" />
+    <Content Include="API\MasterSCADA\MyFbLibrary %28VS7%29\stdafx.h" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\bitmap_n.bmp" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\bmp00001.bmp" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\CommonVisualVarables.h" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\newcontr.bmp" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewControl.cpp" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewControl.h" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewControl.htm" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewControl.rgs" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewLib.cpp" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewLib.def" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewLib.dsp" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewLib.dsw" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewLib.idl" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewLib.rc" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewLibCP.h" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewLibps.def" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewLibps.mk" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewObj.cpp" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewObj.h" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\NewObj.rgs" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\resource.h" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\StdAfx.cpp" />
+    <Content Include="API\MasterSCADA\NewLib %28VS6%29\StdAfx.h" />
+    <Content Include="API\MasterSCADA\Release\Protect.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\CDropTarget.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\FBEventsImpl.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\FBGroup.cpp" />
+    <Content Include="API\MasterSCADA\vvcomobj\FBGroup.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\FBImpl.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\FBImplBase.cpp" />
+    <Content Include="API\MasterSCADA\vvcomobj\FBImplBase.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\FBPropPageImpl.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\FBVisualPins.cpp" />
+    <Content Include="API\MasterSCADA\vvcomobj\FBVisualPins.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\FB_Files.cpp" />
+    <Content Include="API\MasterSCADA\vvcomobj\IPerPropertyBrowsingImplFixed.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\IVisualControlImpl.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\IVisualControlImplBase.cpp" />
+    <Content Include="API\MasterSCADA\vvcomobj\IVisualControlImplBase.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\IVisualFBImpl.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\IVisualFBImplBase.cpp" />
+    <Content Include="API\MasterSCADA\vvcomobj\IVisualFBImplBase.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\LockInternalImpl.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\Macros.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\TimerUserImpl.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\VisualControlUtilsImpl.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\VVComObjCP.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\vvcomobj_defs.h" />
+    <Content Include="API\MasterSCADA\vvcomobj\_IFunkBlockEvents_CP.H" />
+    <Content Include="ArchBackup.dll" />
+    <Content Include="Armature.dll" />
+    <Content Include="atl100.dll" />
+    <Content Include="atl71.dll" />
+    <Content Include="AutoSCADA.dll" />
+    <Content Include="ClientFiles\mscomctl.ocx" />
+    <Content Include="Config\DynamicFBConfig\AnalogovyParameter.xml" />
+    <Content Include="Config\DynamicFBConfig\Average3.bmp" />
+    <Content Include="Config\DynamicFBConfig\Average3.xml" />
+    <Content Include="Config\DynamicFBConfig\bratsk_FB.xml" />
+    <Content Include="Config\DynamicFBConfig\bspeed.bmp" />
+    <Content Include="Config\DynamicFBConfig\btrigger.bmp" />
+    <Content Include="Config\DynamicFBConfig\ClosingElectricValve.xml" />
+    <Content Include="Config\DynamicFBConfig\comport.bmp" />
+    <Content Include="Config\DynamicFBConfig\ControlValve2.xml" />
+    <Content Include="Config\DynamicFBConfig\electricEngine.bmp" />
+    <Content Include="Config\DynamicFBConfig\ElectricEngine.xml" />
+    <Content Include="Config\DynamicFBConfig\electricValve.bmp" />
+    <Content Include="Config\DynamicFBConfig\ElectricValve.xml" />
+    <Content Include="Config\DynamicFBConfig\ElectricValve2.xml" />
+    <Content Include="Config\DynamicFBConfig\FbProtocolDynamicDescription.xml" />
+    <Content Include="Config\DynamicFBConfig\impulsControlValve.bmp" />
+    <Content Include="Config\DynamicFBConfig\ImpulsControlValve.xml" />
+    <Content Include="Config\DynamicFBConfig\ManualIntegrator.bmp" />
+    <Content Include="Config\DynamicFBConfig\ManualIntegrator.xml" />
+    <Content Include="Config\DynamicFBConfig\OPK.bmp" />
+    <Content Include="Config\DynamicFBConfig\OPK.xml" />
+    <Content Include="Config\DynamicFBConfig\PID.bmp" />
+    <Content Include="Config\DynamicFBConfig\PID.xml" />
+    <Content Include="Config\DynamicFBConfig\ppl.bmp" />
+    <Content Include="Config\DynamicFBConfig\ppl.xml" />
+    <Content Include="Config\DynamicFBConfig\realDifferencial.bmp" />
+    <Content Include="Config\DynamicFBConfig\realDifferencial.xml" />
+    <Content Include="Config\DynamicFBConfig\stopValve.bmp" />
+    <Content Include="Config\DynamicFBConfig\StopValve.xml" />
+    <Content Include="Config\DynamicFBConfig\ventilator.bmp" />
+    <Content Include="Config\DynamicFBConfig\Ventilator.xml" />
+    <Content Include="Config\DynamicFBConfig\Ventilator2Speed.bmp" />
+    <Content Include="Config\DynamicFBConfig\Ventilator2Speed.xml" />
+    <Content Include="Config\DynamicFBConfig\ТЗ1.bmp" />
+    <Content Include="Config\DynamicFBConfig\ТЗ1.xml" />
+    <Content Include="Config\Images\ArchiveDataForRaport.bmp" />
+    <Content Include="Config\Images\ArchiveExport.bmp" />
+    <Content Include="Config\Images\ControllerManagement.bmp" />
+    <Content Include="Config\Images\Cymometer.bmp" />
+    <Content Include="Config\Images\PopUpChannelState.bmp" />
+    <Content Include="Config\Images\ProcessStarter.bmp" />
+    <Content Include="Config\Images\SendEmail.bmp" />
+    <Content Include="Config\Images\SendSMS.bmp" />
+    <Content Include="Config\Images\StringComparer.bmp" />
+    <Content Include="Config\Images\TestFB.bmp" />
+    <Content Include="Config\MasterLogic\ComProxy.xml" />
+    <Content Include="Config\MasterLogic\Computer.xml" />
+    <Content Include="Config\MasterLogic\Controllers.xml" />
+    <Content Include="Config\MasterLogic\Danfoss200_P16.xml" />
+    <Content Include="Config\MasterLogic\Danfoss200_P16WOWP.xml" />
+    <Content Include="Config\MasterLogic\Danfoss200_P30.xml" />
+    <Content Include="Config\MasterLogic\Danfoss200_P30WOWP.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_C14.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_C14WOWP.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_C60.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_C60WOWP.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_C62.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_C62WOWP.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_C66.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_C66WOWP.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_L62.xml" />
+    <Content Include="Config\MasterLogic\Danfoss300_L62WOWP.xml" />
+    <Content Include="Config\MasterLogic\Danfoss301_L66.xml" />
+    <Content Include="Config\MasterLogic\Danfoss301_L66WOWP.xml" />
+    <Content Include="Config\MasterLogic\DanfossMain.xml" />
+    <Content Include="Config\MasterLogic\DbConnectorFirebird.xml" />
+    <Content Include="Config\MasterLogic\DbConnectorMySQL.xml" />
+    <Content Include="Config\MasterLogic\InternalModules.xml" />
+    <Content Include="Config\MasterLogic\LegacyDbConnectors.xml" />
+    <Content Include="Config\MasterLogic\Logika762.xml" />
+    <Content Include="Config\MasterLogic\Logika942.xml" />
+    <Content Include="Config\MasterLogic\Logika961.xml" />
+    <Content Include="Config\MasterLogic\MercuryM230-ARTCN1.xml" />
+    <Content Include="Config\MasterLogic\MercuryM230.xml" />
+    <Content Include="Config\MasterLogic\ModbusMaster.xml" />
+    <Content Include="Config\MasterLogic\ModuleMyDevice.xml" />
+    <Content Include="Config\MasterLogic\Modules.xml" />
+    <Content Include="Config\MasterLogic\OWENModules.xml" />
+    <Content Include="Config\MasterLogic\plc100Controller.xml" />
+    <Content Include="Config\MasterLogic\plc100_12_Controller.xml" />
+    <Content Include="Config\MasterLogic\plc11032Controller.xml" />
+    <Content Include="Config\MasterLogic\plc11060Controller.xml" />
+    <Content Include="Config\MasterLogic\plc304Controller.xml" />
+    <Content Include="Config\MasterLogic\plc308Controller.xml" />
+    <Content Include="Config\MasterLogic\plc3250Controller.xml" />
+    <Content Include="Config\MasterLogic\plcbt5000Controller.xml" />
+    <Content Include="Config\MasterLogic\plcDIGIController.xml" />
+    <Content Include="Config\MasterLogic\plcTuneAinController.xml" />
+    <Content Include="Config\MasterLogic\plcTuneController.xml" />
+    <Content Include="Config\MasterLogic\Ports.xml" />
+    <Content Include="Config\MasterLogic\Protocols.xml" />
+    <Content Include="Config\MasterLogic\Pulsar6.xml" />
+    <Content Include="Config\MasterLogic\Resources.xml" />
+    <Content Include="Config\MasterLogic\Resourcesplc100.xml" />
+    <Content Include="Config\MasterLogic\Resourcesplc100_12.xml" />
+    <Content Include="Config\MasterLogic\Resourcesplc11032.xml" />
+    <Content Include="Config\MasterLogic\Resourcesplc11060.xml" />
+    <Content Include="Config\MasterLogic\Resourcesplc3250.xml" />
+    <Content Include="Config\MasterLogic\Resourcesplcbt5000.xml" />
+    <Content Include="Config\MasterLogic\Resourcesplcdigi.xml" />
+    <Content Include="Config\MasterLogic\Resourcesplctune.xml" />
+    <Content Include="Config\MasterLogic\Resourcesplctuneain.xml" />
+    <Content Include="Config\MasterLogic\ResourcesTECONP06.xml" />
+    <Content Include="Config\MasterLogic\Resourcesuc7408.xml" />
+    <Content Include="Config\MasterLogic\TECONP06Controller.xml" />
+    <Content Include="Config\MasterLogic\uc7408Controller.xml" />
+    <Content Include="Config\MasterLogic\WinController.xml" />
+    <Content Include="Config\MasterLogic\ПРЧМицубиси.xml" />
+    <Content Include="Config\MasterPLC\MasterLink\MasterLink.EXE" />
+    <Content Include="Config\MasterPLC\PLCBT5000\inst.txt" />
+    <Content Include="Config\MasterPLC\PLCBT5000\plcbt5000ms4.exe" />
+    <Content Include="Config\MasterPLC\PLCTUNEAIN\inst.txt" />
+    <Content Include="Config\MasterPLC\PLCTUNEAIN\plctuneainms4.exe" />
+    <Content Include="Config\MasterPLC\WIN32\IWIN32.exe" />
+    <Content Include="Config\Metrology\errorsevaluation.htm" />
+    <Content Include="Config\Metrology\templates.xml" />
+    <Content Include="ControlCtrls.dll" />
+    <Content Include="ControlCtrls2.dll" />
+    <Content Include="Controllers.dll" />
+    <Content Include="DarkGray.Library.dll" />
+    <Content Include="DarkGray.Opc.dll" />
+    <Content Include="DarkGray.Opc.Hard.dll" />
+    <Content Include="DarkGray.Opc.HDA.dll" />
+    <Content Include="DarkGray.Opc.Interfaces.dll" />
+    <Content Include="data\options\SharpDevelop-templates.xml" />
+    <Content Include="data\options\SharpDevelop-tools.xml" />
+    <Content Include="data\options\SharpDevelopProperties.xml" />
+    <Content Include="data\options\StandardHeader.xml" />
+    <Content Include="data\options\textlib\ASCIITable.xml" />
+    <Content Include="data\options\textlib\CSharpDocumentationTags.xml" />
+    <Content Include="data\options\textlib\Licenses.xml" />
+    <Content Include="data\options\textlib\XSLT.xml" />
+    <Content Include="DBExport.dll" />
+    <Content Include="Debugger.AddIn.dll" />
+    <Content Include="Debugger.Core.dll" />
+    <Content Include="dfact.dll" />
+    <Content Include="DOC.XML" />
+    <Content Include="DOC.XSL" />
+    <Content Include="Doc\version.txt" />
+    <Content Include="Electricity.dll" />
+    <Content Include="en-US\MasterSCADA.RT.resources.dll" />
+    <Content Include="FB.dll" />
+    <Content Include="FB.xml" />
+    <Content Include="FBCompiler.dll" />
+    <Content Include="FBLibrary.dll" />
+    <Content Include="FBLibrary2.dll" />
+    <Content Include="FBTimer.dll" />
+    <Content Include="FirebirdSql.Data.FirebirdClient.dll" />
+    <Content Include="firebird\fbembed.dll" />
+    <Content Include="firebird\ib_util.dll" />
+    <Content Include="firebird\icudt30.dll" />
+    <Content Include="firebird\icuin30.dll" />
+    <Content Include="firebird\icuuc30.dll" />
+    <Content Include="firebird\IDPLicense.txt" />
+    <Content Include="firebird\intl\fbintl.dll" />
+    <Content Include="firebird\IPLicense.txt" />
+    <Content Include="firebird\msvcp80.dll" />
+    <Content Include="firebird\msvcr80.dll" />
+    <Content Include="firebird\udf\fbudf.dll" />
+    <Content Include="firebird\udf\fbudf.sql" />
+    <Content Include="firebird\udf\fbudf.txt" />
+    <Content Include="firebird\udf\ib_udf.dll" />
+    <Content Include="firebird\udf\ib_udf.sql" />
+    <Content Include="firebird\udf\ib_udf2.sql" />
+    <Content Include="gdiplus.dll" />
+    <Content Include="GsmLink.dll" />
+    <Content Include="GuiCtrls.dll" />
+    <Content Include="HdaClient.dll" />
+    <Content Include="HotKeys.dll" />
+    <Content Include="ICSharpCode.Build.Tasks.dll" />
+    <Content Include="ICSharpCode.Core.dll" />
+    <Content Include="ICSharpCode.Core.Presentation.dll" />
+    <Content Include="ICSharpCode.Core.WinForms.dll" />
+    <Content Include="ICSharpCode.NRefactory.dll" />
+    <Content Include="ICSharpCode.SharpDevelop.dll" />
+    <Content Include="ICSharpCode.SharpDevelop.Dom.dll" />
+    <Content Include="ICSharpCode.SharpDevelop.Sda.dll" />
+    <Content Include="ICSharpCode.SharpDevelop.Widgets.dll" />
+    <Content Include="ICSharpCode.SharpZipLib.dll" />
+    <Content Include="ICSharpCode.TextEditor.dll" />
+    <Content Include="InSAT.Library.dll" />
+    <Content Include="InSAT.Library.xml" />
+    <Content Include="InSAT.MasterOpc.Common.dll" />
+    <Content Include="Insat.Opc.dll" />
+    <Content Include="InternalModules.dll" />
+    <Content Include="Interop.Excel.dll" />
+    <Content Include="Interop.MSXML2.dll" />
+    <Content Include="Interop.Office.dll" />
+    <Content Include="Interop.VBIDE.dll" />
+    <Content Include="Journal.xsl" />
+    <Content Include="Localization\en.xml" />
+    <Content Include="Localization\ru.xml" />
+    <Content Include="log4net.dll" />
+    <Content Include="LuaCLR.dll" />
+    <Content Include="LuaInterface.dll" />
+    <Content Include="MagicLocalLibrary.dll" />
+    <Content Include="MasterLogic.dll" />
+    <Content Include="MasterLogic.MSSupport.dll" />
+    <Content Include="MasterOpc.InternalInterfaces.dll" />
+    <Content Include="MasterSCADA.Archive.dll" />
+    <Content Include="MasterSCADA.Common.dll" />
+    <Content Include="MasterSCADA.Common.xml" />
+    <Content Include="MasterSCADA.DB.dll" />
+    <Content Include="MasterSCADA.DT.dll" />
+    <Content Include="MasterSCADA.Graph.dll" />
+    <Content Include="MasterSCADA.Journal.dll" />
+    <Content Include="MasterSCADA.PropPages.dll" />
+    <Content Include="MasterSCADA.Report.dll" />
+    <Content Include="MasterSCADA.Resources.dll" />
+    <Content Include="MasterSCADA.RT.dll" />
+    <Content Include="MasterSCADA.Script.dll" />
+    <Content Include="MasterSCADA.ST.dll" />
+    <Content Include="MasterSCADA.Trend.dll" />
+    <Content Include="MasterSCADALib.dll" />
+    <Content Include="Mechanismes.dll" />
+    <Content Include="Messages.xslt" />
+    <Content Include="Metrology.dll" />
+    <Content Include="mfc100.dll" />
+    <Content Include="mfc100rus.dll" />
+    <Content Include="MFC71.dll" />
+    <Content Include="mfcm100.dll" />
+    <Content Include="MG.RTView.dll" />
+    <Content Include="MGDesign.dll" />
+    <Content Include="MGDesign.Share.dll" />
+    <Content Include="ModemLib.dll" />
+    <Content Include="Mono.Cecil.dll" />
+    <Content Include="MSNetRegistrator.dll" />
+    <Content Include="MSTask.Lib.dll" />
+    <Content Include="MSTask.Scada.dll" />
+    <Content Include="msvcp100.dll" />
+    <Content Include="msvcp71.dll" />
+    <Content Include="msvcr100.dll" />
+    <Content Include="msvcr71.dll" />
+    <Content Include="MySql.Data.dll" />
+    <Content Include="NetworkConnections.dll" />
+    <Content Include="NineRays.Core.dll" />
+    <Content Include="NineRays.Windows.Actions.dll" />
+    <Content Include="NineRays.Windows.Shortcuts.dll" />
+    <Content Include="NullableTypes.dll" />
+    <Content Include="ObjectModel.Net.dll" />
+    <Content Include="ObjPalete.dll" />
+    <Content Include="OPCBrowser2.dll" />
+    <Content Include="OPCJournal.dll" />
+    <Content Include="OpcNetApi.Com.dll" />
+    <Content Include="OpcNetApi.dll" />
+    <Content Include="OpcNetApi.Xml.dll" />
+    <Content Include="OpcRcw.Ae.dll" />
+    <Content Include="OpcRcw.Comn.dll" />
+    <Content Include="OpcRcw.Da.dll" />
+    <Content Include="OpcRcw.Dx.dll" />
+    <Content Include="OpcRcw.Hda.dll" />
+    <Content Include="OZW772_RMU720.dll" />
+    <Content Include="OZW772_RMU720.pdb" />
+    <Content Include="OZW772_RMU720\OZW772_RMU720.sln" />
+    <Content Include="OZW772_RMU720\OZW772_RMU720\obj\Debug\OZW772_RMU720.csproj.FileListAbsolute.txt" />
+    <Content Include="OZW772_RMU720\OZW772_RMU720\obj\Debug\OZW772_RMU720.dll" />
+    <Content Include="OZW772_RMU720\OZW772_RMU720\obj\Debug\OZW772_RMU720.pdb" />
+    <Content Include="OZW772_RMU720\OZW772_RMU720\OZW772_RMU720.bmp" />
+    <Content Include="OZW772_RMU720\OZW772_RMU720\OZW772_RMU720.csproj" />
+    <Content Include="OZW772_RMU720\OZW772_RMU720\OZW772_RMU720.csproj.user" />
+    <Content Include="OZW772_RMU720\OZW772_RMU720\OZW772_RMU720.xml" />
+    <Content Include="Parser.dll" />
+    <Content Include="Passport.dll" />
+    <Content Include="Passport__FB.dll" />
+    <Content Include="Presentation\GDIPLUS.DLL" />
+    <Content Include="Presentation\INTLDATE.DLL" />
+    <Content Include="Presentation\PPTVIEW.EXE" />
+    <Content Include="Presentation\PPVWINTL.DLL" />
+    <Content Include="Presentation\PVREADME.HTM" />
+    <Content Include="Presentation\SAEXT.DLL" />
+    <Content Include="Presentation\UNICOWS.DLL" />
+    <Content Include="ProfilerOBJ.dll" />
+    <Content Include="ProxyStub.dll" />
+    <Content Include="Redistributable\rockey_setup.exe" />
+    <Content Include="Redistributable\rockey_setup_x64.exe" />
+    <Content Include="Redistributable\smartkey_setup.exe" />
+    <Content Include="Redundancy.dll" />
+    <Content Include="RedundancyLib.dll" />
+    <Content Include="Report\MSReportAddin.dll" />
+    <Content Include="RTBlocks.dll" />
+    <Content Include="ru\MasterSCADA.Report.resources.dll" />
+    <Content Include="SerialStreamReader.dll" />
+    <Content Include="Servis.dll" />
+    <Content Include="setup.bmp" />
+    <Content Include="SharpSnippetCompiler.Core.dll" />
+    <Content Include="SharpSnippetCompiler.dll" />
+    <Content Include="SharpSupportLibrary.dll" />
+    <Content Include="Stimulsoft.Base.dll" />
+    <Content Include="Stimulsoft.Controls.dll" />
+    <Content Include="Stimulsoft.Controls.Win.dll" />
+    <Content Include="Stimulsoft.Database.dll" />
+    <Content Include="Stimulsoft.Editor.dll" />
+    <Content Include="Stimulsoft.Report.Check.dll" />
+    <Content Include="Stimulsoft.Report.Design.dll" />
+    <Content Include="Stimulsoft.Report.dll" />
+    <Content Include="Stimulsoft.Report.Helper.dll" />
+    <Content Include="Stimulsoft.Report.Web.dll" />
+    <Content Include="Stimulsoft.Report.Win.dll" />
+    <Content Include="Stimulsoft.Report.Wpf.dll" />
+    <Content Include="Stimulsoft.Report.WpfDesign.dll" />
+    <Content Include="StockPages.dll" />
+    <Content Include="STtoCSharp.dll" />
+    <Content Include="STtoLua.dll" />
+    <Content Include="TranslatorST.dll" />
+    <Content Include="TrendControl.dll" />
+    <Content Include="TrendCtrl.dll" />
+    <Content Include="tune.dll" />
+    <Content Include="vavobj.dll" />
+    <Content Include="VersionControl.dll" />
+    <Content Include="VisualFB.dll" />
+    <Content Include="VVControls1.dll" />
+    <Content Include="VVRTObj.dll" />
+    <Content Include="vvtimer.dll" />
+    <Content Include="WebBrowserTools.dll" />
+    <Content Include="WeifenLuo.WinFormsUI.Docking.dll" />
+    <Content Include="_grprim.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="6\OZW_100606_RMU720.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\DynamicProperties\DynamicPropertiesExample.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\DynamicProperties\DynamicProperty.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\DynamicProperties\DynamicPropertyPersist.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\GetDataFromDB\Data.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\GetDataFromDB\GetDataFromDB.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\NetRemoting\NetRemotingFB.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\NetRemoting\NetRemotingFBProxy.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\Pins\CusomGroups\CustomGroupsFB.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\Pins\ItemsRange\CountProperty\CountProperty.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\PropPages\DynamicPinsAndpropPageExample\DynamicPinsAndPropPageExample.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\PropPages\DynamicPinsAndpropPageExample\NewPropPage.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\TestFB\TestFB.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\FB\WorkWithOperator\WorkWithOperatorExample.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\Properties\AssemblyInfo.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\SystemTree\InternalModules\SimpleModule\SimpleModule.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\SystemTree\InternalModules\SimpleModule\SimpleModuleRTProcessor.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\ChangingDBExportNames\ChangingDBExportNamesActiveX.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\ChangingDBExportNames\ChangingDBExportNamesActiveX.Designer.cs">
+      <DependentUpon>ChangingDBExportNamesActiveX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\ConnectPinAndPout\ConnectPinAndPout.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\ConnectPinAndPout\ConnectPinAndPout.Designer.cs">
+      <DependentUpon>ConnectPinAndPout.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\DragAndDrop\DragAndDrop.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\DragAndDrop\DragAndDrop.Designer.cs">
+      <DependentUpon>DragAndDrop.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\PropertiesDynamization\PropertyDynamization.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\PropertiesDynamization\PropertyDynamization.Designer.cs">
+      <DependentUpon>PropertyDynamization.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\ReadDataFromPinArchive\ReadDataFromPinArchive.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\ReadDataFromPinArchive\ReadDataFromPinArchive.Designer.cs">
+      <DependentUpon>ReadDataFromPinArchive.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\ReadScaleOfValue\ReadScaleOfValue.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\ReadScaleOfValue\ReadScaleOfValue.Designer.cs">
+      <DependentUpon>ReadScaleOfValue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\SaveRefToITreePinHlp\SaveRefToITreePinHlp.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\SaveRefToITreePinHlp\SaveRefToITreePinHlp.Designer.cs">
+      <DependentUpon>SaveRefToITreePinHlp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\SimpleNetActiveX\SimpleNetActiveX.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\SimpleNetActiveX\SimpleNetActiveX.Designer.cs">
+      <DependentUpon>SimpleNetActiveX.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\UserControls\SimpleWindowlessActiveX\SimpleWindowlessActiveX.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\Blinking\Blinking.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\Blinking\BlinkingControl.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\Blinking\BlinkingControl.Designer.cs">
+      <DependentUpon>BlinkingControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\DataExchangeBetweenFbAndControl\ControlForDataExchangeBetweenFbAndControl.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\DataExchangeBetweenFbAndControl\ControlForDataExchangeBetweenFbAndControl.Designer.cs">
+      <DependentUpon>ControlForDataExchangeBetweenFbAndControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\DataExchangeBetweenFbAndControl\DataExchangeBetweenFbAndControl.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\FormOpening\FormOpening.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\FormOpening\FormOpeningControl.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\FormOpening\FormOpeningControl.Designer.cs">
+      <DependentUpon>FormOpeningControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\FormOpening\FormOpeningFrom.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\FormOpening\FormOpeningFrom.Designer.cs">
+      <DependentUpon>FormOpeningFrom.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\MultiControls\GreenControl.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\MultiControls\GreenControl.Designer.cs">
+      <DependentUpon>GreenControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\MultiControls\MultiControls.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\MultiControls\RedControl.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\MultiControls\RedControl.Designer.cs">
+      <DependentUpon>RedControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\WindowlessControl\MyWindowlessControl.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\WindowlessControl\MyWindowlessFB.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\WindowlessControl\MyWindowlessForm.cs" />
+    <Compile Include="API\MasterSCADA\Examples\Examples\VFB\WindowlessControl\MyWindowlessForm.Designer.cs">
+      <DependentUpon>MyWindowlessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OZW772_RMU720\OZW772_RMU720\obj\Debug\TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" />
+    <Compile Include="OZW772_RMU720\OZW772_RMU720\obj\Debug\TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" />
+    <Compile Include="OZW772_RMU720\OZW772_RMU720\obj\Debug\TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" />
+    <Compile Include="OZW772_RMU720\OZW772_RMU720\OZW772_RMU720.cs" />
+    <Compile Include="OZW772_RMU720\OZW772_RMU720\Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\UserControls\ChangingDBExportNames\ChangingDBExportNamesActiveX.resx">
+      <DependentUpon>ChangingDBExportNamesActiveX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\UserControls\ConnectPinAndPout\ConnectPinAndPout.resx">
+      <DependentUpon>ConnectPinAndPout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\UserControls\DragAndDrop\DragAndDrop.resx">
+      <DependentUpon>DragAndDrop.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\UserControls\PropertiesDynamization\PropertyDynamization.resx">
+      <DependentUpon>PropertyDynamization.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\UserControls\ReadDataFromPinArchive\ReadDataFromPinArchive.resx">
+      <DependentUpon>ReadDataFromPinArchive.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\UserControls\ReadScaleOfValue\ReadScaleOfValue.resx">
+      <DependentUpon>ReadScaleOfValue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\UserControls\SaveRefToITreePinHlp\SaveRefToITreePinHlp.resx">
+      <DependentUpon>SaveRefToITreePinHlp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\UserControls\SimpleNetActiveX\SimpleNetActiveX.resx">
+      <DependentUpon>SimpleNetActiveX.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\VFB\Blinking\BlinkingControl.resx">
+      <DependentUpon>BlinkingControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\VFB\DataExchangeBetweenFbAndControl\ControlForDataExchangeBetweenFbAndControl.resx">
+      <DependentUpon>ControlForDataExchangeBetweenFbAndControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\VFB\FormOpening\FormOpeningControl.resx">
+      <DependentUpon>FormOpeningControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\VFB\FormOpening\FormOpeningFrom.resx">
+      <DependentUpon>FormOpeningFrom.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\VFB\MultiControls\GreenControl.resx">
+      <DependentUpon>GreenControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\VFB\MultiControls\RedControl.resx">
+      <DependentUpon>RedControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="API\MasterSCADA\Examples\Examples\VFB\WindowlessControl\MyWindowlessForm.resx">
+      <DependentUpon>MyWindowlessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Localization\ru\ST.StringResources.resources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Page Include="Config\Styles\Trend\Дым.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Styles\Trend\Классический.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Styles\Trend\Стекло.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Journal\Журнал базовый.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Journal\Журнал минимальный.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Journal\Журнал продвинутый.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Journal\Только просмотр.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Journal\Только сообщения.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Trend\Базовый.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Trend\Внешний вид.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Trend\Минимальный.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Trend\Продвинутый.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Trend\Таблица значений.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\Templates\Trend\Только графики.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\ThemeColors\Trend\Голубой.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\ThemeColors\Trend\Оранжевый.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\ThemeColors\Trend\Розовый.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\ThemeColors\Trend\Салатовый.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Config\ThemeColors\Trend\Черно-белый.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="data\options\WpfToolbox.xaml">
+      <Generator>MSBuild:Compile</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="OZW772_RMU720\OZW772_RMU720\bin\Debug\" />
+    <Folder Include="OZW772_RMU720\OZW772_RMU720\bin\Release\" />
+    <Folder Include="OZW772_RMU720\OZW772_RMU720\obj\Debug\TempPE\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSHARP.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+</Project>

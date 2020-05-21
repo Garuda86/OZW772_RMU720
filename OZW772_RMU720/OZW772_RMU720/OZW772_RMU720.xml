@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<FBConfig>
+  <Map>
+    <Items>
+      <Pin ID="1" Name="Economy cooling setpoint" Type="Вещественный"/>
+      <Pin ID="2" Name="Precomfort cooling setpoint" Type="Вещественный"/>
+      <Pin ID="3" Name="Comfort cooling setpoint" Type="Вещественный"/>
+      <Pin ID="4" Name="Comfort heating setpoint" Type="Вещественный"/>
+      <Pin ID="5" Name="Precomfort heating setpoint" Type="Вещественный"/>
+      <Pin ID="6" Name="Economy heating setpoint" Type="Вещественный"/>
+      <Pin ID="7" Name="Supply air limit value max" Type="Вещественный"/>
+      <Pin ID="8" Name="Supply air limit value min" Type="Вещественный"/>
+      <Pin ID="9" Name="Preselected room optg mode" Type="Строковый"/>
+      
+      <Pout ID="10" Name="NX1" Type="Вещественный"/>
+      <Pout ID="11" Name="NX2" Type="Вещественный"/>
+      <Pout ID="12" Name="NX3" Type="Вещественный"/>
+      <Pout ID="13" Name="NX4" Type="Вещественный"/>
+      <Pout ID="14" Name="NX5" Type="Вещественный"/>
+      <Pout ID="15" Name="NX6" Type="Вещественный"/>
+      <Pout ID="16" Name="NX7" Type="Вещественный"/>
+      <Pout ID="17" Name="NX8" Type="Вещественный"/>
+      <Pout ID="18" Name="Vent" Type="Логический"/>
+      <Pout ID="19" Name="Pump" Type="Логический"/>
+      <Pout ID="20" Name="Actual value room temp" Type="Вещественный"/>
+      <Pout ID="21" Name="Current room temp setpoint" Type="Вещественный"/>
+      <Pout ID="22" Name="_Economy cooling setpoint" Type="Вещественный"/>
+      <Pout ID="23" Name="_Precomfort cooling setpoint" Type="Вещественный"/>
+      <Pout ID="24" Name="_Comfort cooling setpoint" Type="Вещественный"/>
+      <Pout ID="25" Name="_Comfort heating setpoint" Type="Вещественный"/>
+      <Pout ID="26" Name="_Precomfort heating setpoint" Type="Вещественный"/>
+      <Pout ID="27" Name="_Economy heating setpoint" Type="Вещественный"/>
+      <Pout ID="28" Name="Actual value supp air temp" Type="Вещественный"/>
+      <Pout ID="29" Name="Current supply air temp setpoint" Type="Вещественный"/>
+      <Pout ID="30" Name="_Supply air limit value max" Type="Вещественный"/>
+      <Pout ID="31" Name="_Supply air limit value min" Type="Вещественный"/>
+      <Pout ID="32" Name="Actual value outside temp" Type="Вещественный"/>
+      <Pout ID="33" Name="_Preselected room optg mode" Type="Строковый"/>
+      
+      <Pin ID="34" Name="IP" Type="Строковый"/>
+      <Pout ID="35" Name="Fault" Type="Строковый"/>
+      <Pout ID="36" Name="mod_A" Type="Вещественный"/>
+      <Pout ID="37" Name="mod_B" Type="Вещественный"/>
+      <Pin ID="38" Name="N" Type="Строковый"/>
+      <Pin ID="39" Name="write" Type="Логический"/>
+    </Items>
+  </Map>
+</FBConfig>

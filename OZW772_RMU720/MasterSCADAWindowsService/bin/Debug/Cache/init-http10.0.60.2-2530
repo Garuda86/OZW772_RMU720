@@ -1,0 +1,273 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- &copy; Siemens AG 2007 -->
+	<title>OZW772.04</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<link rel="stylesheet" type="text/css" href="/layout/default/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/layout/default/css/diagram/diagram.css" />
+<link rel="stylesheet" type="text/css" href="/layout/default/css/diagram/diagram_dialog.css" />
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+</head>
+<body>
+<form action="" id="ajax">
+<p><input type="hidden" name="SessionId" value="4117361d-2526-4725-ba56-4cebcad55d4a"/></p>
+</form>
+<div class="key-visual-zone">
+</div>
+<div class="site-id-zone">
+</div>
+<div class="global-zone" style="background-image: url(./layout/default/img/logo.png)"></div>
+<div class="custom-logo-zone" style="background-image: url(./layout/custom/img/customer.png)"></div>
+<div class="local-zone">
+</div>
+<div class="plant-name">
+OZW772.04
+</div>
+<div class="prim-nav-zone">
+<ul class="prim-nav">
+<li><a  class="actual" 	 href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard">Home</a><span class="pipe"> | </span></li>
+<li><a 	 href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=faults">Faults</a><span class="pipe"> | </span></li>
+<li><a 	href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=fileTransfer">File transfer</a><span class="pipe"> | </span></li>
+<li><a  href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=settings">User accounts</a><span class="pipe"> | </span></li>
+<li><a 	href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=configuration">Device web pages</a></li>
+</ul></div>
+<div class="currentuser-zone"><div class="currentuser-name">Administrator&nbsp;&nbsp;<a href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=logout">[Logout]</a></div>
+</div>
+<div id="alarm-zone" style="display:inline;">
+<div class="alarm-yes" onclick="javascript:faults()">
+<div class="alarm-name">
+OZW772.04</div>
+<div class="alarm-text-fault">
+System time failure</div>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+resizeSecNavZone();
+initAlarmStateUpdate();
+});
+});
+</script>
+<div class="bg-sec-nav-zone"></div>
+<div class="sec-nav-zone">
+<ul class="sec-nav">
+<li><a class="page-up text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2487&amp;idtype=2">Upward</a></li>
+<li class="page-line">&nbsp;</li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2488&amp;idtype=4">Time switch</a></li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2497&amp;idtype=4">Room operating mode</a></li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2502&amp;idtype=4">Plant operation</a></li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2506&amp;idtype=4">Inputs</a></li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2520&amp;idtype=4">Aggregates</a></li>
+<li> <a class="page text actual " href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2530&amp;idtype=4">Controller 1</a></li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2548&amp;idtype=4">Holidays/special days</a></li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2565&amp;idtype=4">Time of day/date</a></li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2569&amp;idtype=4">Faults</a></li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2638&amp;idtype=4">Settings</a></li>
+<li> <a class="page text" href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2814&amp;idtype=4">Device information</a></li>
+</ul>
+</div>
+<div class="content-zone">
+<div class="breadcrumb-zone">
+<ul class="breadcrumb-nav">
+	<li><a href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=1&amp;idtype=0">Home</a><span class="pipe"> &gt; </span></li>
+	<li><a href="main.app?SessionId=4117361d-2526-4725-ba56-4cebcad55d4a&amp;section=popcard&amp;id=2487&amp;idtype=2">0.2.250 RMU720B-4</a><span class="pipe"> &gt; </span></li>
+	<li class="current">Controller 1</li>
+</ul>
+</div>
+<div class="content-subzone">
+<table class="dp_table">
+<tr>
+<th class="dp_name">Datapoint</th>
+<th class="dp_value">Value</th>
+<th class="dp_unit"></th>
+<th class="dp_edit"></th>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Actual value room temp</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2531">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2531">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Current room temp setpoint</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2532">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2532">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Economy cooling setpoint</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2533">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2533">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2533');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Precomfort cooling setpoint</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2534">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2534">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2534');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Comfort cooling setpoint</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2535">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2535">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2535');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Comfort heating setpoint</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2536">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2536">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2536');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Precomfort heating setpoint</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2537">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2537">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2537');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Economy heating setpoint</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2538">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2538">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2538');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Actual value supp air temp</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2539">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2539">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Current supply air temp setpoint</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2540">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2540">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Current cooling setp supply air</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2541">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2541">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Current heating setp supply air</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2542">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2542">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Supply air limit value max</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2543">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2543">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2543');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Supply air limit value min</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2544">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2544">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2544');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Actual value outside temp</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2545">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2545">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">[Sequence 1       \_ ] load</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2546">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2546">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">[Sequence 4 _/    ] load</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2547">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2547">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr id="page-dynamic-end">
+<td  colspan="4" class="line-end" ></td>
+</tr>
+</table>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+initDataPointUpdate();
+});
+});
+</script>
+</div>
+</div>
+</body>
+</html>

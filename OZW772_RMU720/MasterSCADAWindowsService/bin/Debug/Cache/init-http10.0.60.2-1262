@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- &copy; Siemens AG 2007 -->
+	<title>OZW772.04</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<link rel="stylesheet" type="text/css" href="/layout/default/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/layout/default/css/diagram/diagram.css" />
+<link rel="stylesheet" type="text/css" href="/layout/default/css/diagram/diagram_dialog.css" />
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+</head>
+<body>
+<form action="" id="ajax">
+<p><input type="hidden" name="SessionId" value="8743aaba-14bd-423a-91e4-6a80bddfbcf5"/></p>
+</form>
+<div class="key-visual-zone">
+</div>
+<div class="site-id-zone">
+</div>
+<div class="global-zone" style="background-image: url(./layout/default/img/logo.png)"></div>
+<div class="custom-logo-zone" style="background-image: url(./layout/custom/img/customer.png)"></div>
+<div class="local-zone">
+</div>
+<div class="plant-name">
+OZW772.04
+</div>
+<div class="prim-nav-zone">
+<ul class="prim-nav">
+<li><a  class="actual" 	 href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard">Home</a><span class="pipe"> | </span></li>
+<li><a 	 href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=faults">Faults</a><span class="pipe"> | </span></li>
+<li><a 	href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=fileTransfer">File transfer</a><span class="pipe"> | </span></li>
+<li><a  href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=settings">User accounts</a><span class="pipe"> | </span></li>
+<li><a 	href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=configuration">Device web pages</a></li>
+</ul></div>
+<div class="currentuser-zone"><div class="currentuser-name">Administrator&nbsp;&nbsp;<a href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=logout">[Logout]</a></div>
+</div>
+<div id="alarm-zone" style="display:inline;">
+<div class="alarm-yes" onclick="javascript:faults()">
+<div class="alarm-name">
+OZW772.04</div>
+<div class="alarm-text-fault">
+System time failure</div>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+resizeSecNavZone();
+initAlarmStateUpdate();
+});
+});
+</script>
+<div class="bg-sec-nav-zone"></div>
+<div class="sec-nav-zone">
+<ul class="sec-nav">
+<li><a class="page-up text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1243&amp;idtype=2">Upward</a></li>
+<li class="page-line">&nbsp;</li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1244&amp;idtype=4">Time switch</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1253&amp;idtype=4">Room operating mode</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1258&amp;idtype=4">Plant operation</a></li>
+<li> <a class="page text actual " href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1262&amp;idtype=4">Inputs</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1276&amp;idtype=4">Aggregates</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1286&amp;idtype=4">Controller 1</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1304&amp;idtype=4">Holidays/special days</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1321&amp;idtype=4">Time of day/date</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1325&amp;idtype=4">Faults</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1394&amp;idtype=4">Settings</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1570&amp;idtype=4">Device information</a></li>
+</ul>
+</div>
+<div class="content-zone">
+<div class="breadcrumb-zone">
+<ul class="breadcrumb-nav">
+	<li><a href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1&amp;idtype=0">Home</a><span class="pipe"> &gt; </span></li>
+	<li><a href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1243&amp;idtype=2">0.2.252 RMU720B-4</a><span class="pipe"> &gt; </span></li>
+	<li class="current">Inputs</li>
+</ul>
+</div>
+<div class="content-subzone">
+<table class="dp_table">
+<tr>
+<th class="dp_name">Datapoint</th>
+<th class="dp_value">Value</th>
+<th class="dp_unit"></th>
+<th class="dp_edit"></th>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">N.X1</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1263">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1263">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">N.X2</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1264">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1264">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">N.X3</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1265">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1265">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">N.X4</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1266">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1266">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">N.X5</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1267">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1267">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">N.X6</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1268">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1268">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">N.X7</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1269">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1269">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">N.X8</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1270">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1270">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">[Room temperature 1] bus</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1271">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1271">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">[Room temperature 2] bus</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1272">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1272">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Actual value room temp</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1273">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1273">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Actual value outside temp</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1274">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1274">&nbsp;</div>
+</td>
+<td> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Outside temperature simulation</td>
+<td class="dp_value">
+<div style="display:inline" id="dp1275">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit1275">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('1275');"> </td>
+</tr>
+<tr id="page-dynamic-end">
+<td  colspan="4" class="line-end" ></td>
+</tr>
+</table>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+initDataPointUpdate();
+});
+});
+</script>
+</div>
+</div>
+</body>
+</html>

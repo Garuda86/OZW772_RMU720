@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<!-- &copy; Siemens AG 2007 -->
+	<title>OZW772.04</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<link rel="stylesheet" type="text/css" href="/layout/default/css/style.css" />
+<link rel="stylesheet" type="text/css" href="/layout/default/css/diagram/diagram.css" />
+<link rel="stylesheet" type="text/css" href="/layout/default/css/diagram/diagram_dialog.css" />
+<script type="text/javascript" src="./js/jquery.js"></script>
+<script type="text/javascript" src="./js/common.js"></script>
+</head>
+<body>
+<form action="" id="ajax">
+<p><input type="hidden" name="SessionId" value="8743aaba-14bd-423a-91e4-6a80bddfbcf5"/></p>
+</form>
+<div class="key-visual-zone">
+</div>
+<div class="site-id-zone">
+</div>
+<div class="global-zone" style="background-image: url(./layout/default/img/logo.png)"></div>
+<div class="custom-logo-zone" style="background-image: url(./layout/custom/img/customer.png)"></div>
+<div class="local-zone">
+</div>
+<div class="plant-name">
+OZW772.04
+</div>
+<div class="prim-nav-zone">
+<ul class="prim-nav">
+<li><a  class="actual" 	 href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard">Home</a><span class="pipe"> | </span></li>
+<li><a 	 href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=faults">Faults</a><span class="pipe"> | </span></li>
+<li><a 	href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=fileTransfer">File transfer</a><span class="pipe"> | </span></li>
+<li><a  href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=settings">User accounts</a><span class="pipe"> | </span></li>
+<li><a 	href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=configuration">Device web pages</a></li>
+</ul></div>
+<div class="currentuser-zone"><div class="currentuser-name">Administrator&nbsp;&nbsp;<a href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=logout">[Logout]</a></div>
+</div>
+<div id="alarm-zone" style="display:inline;">
+<div class="alarm-yes" onclick="javascript:faults()">
+<div class="alarm-name">
+OZW772.04</div>
+<div class="alarm-text-fault">
+System time failure</div>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+resizeSecNavZone();
+initAlarmStateUpdate();
+});
+});
+</script>
+<div class="bg-sec-nav-zone"></div>
+<div class="sec-nav-zone">
+<ul class="sec-nav">
+<li><a class="page-up text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2016&amp;idtype=4">Upward</a></li>
+<li class="page-line">&nbsp;</li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2017&amp;idtype=4">Device</a></li>
+<li> <a class="page text actual " href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2023&amp;idtype=4">Operating mode</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2028&amp;idtype=4">Inputs</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2066&amp;idtype=4">Aggregates</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2093&amp;idtype=4">Controller 1</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2131&amp;idtype=4">Frost protection</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2140&amp;idtype=4">Frost protection unit 1</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2142&amp;idtype=4">Preheating function</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2147&amp;idtype=4">Night cooling</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2152&amp;idtype=4">Faults</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2165&amp;idtype=4">Data acquisition</a></li>
+<li> <a class="page text" href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2184&amp;idtype=4">Texts</a></li>
+</ul>
+</div>
+<div class="content-zone">
+<div class="breadcrumb-zone">
+<ul class="breadcrumb-nav">
+	<li><a href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1&amp;idtype=0">Home</a><span class="pipe"> &gt; </span></li>
+	<li><a href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=1865&amp;idtype=2">0.2.251 RMU720B-4</a><span class="pipe"> &gt; </span></li>
+	<li><a href="main.app?SessionId=8743aaba-14bd-423a-91e4-6a80bddfbcf5&amp;section=popcard&amp;id=2016&amp;idtype=4">Settings</a><span class="pipe"> &gt; </span></li>
+	<li class="current">Operating mode</li>
+</ul>
+</div>
+<div class="content-subzone">
+<table class="dp_table">
+<tr>
+<th class="dp_name">Datapoint</th>
+<th class="dp_value">Value</th>
+<th class="dp_unit"></th>
+<th class="dp_edit"></th>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Preselected room optg mode</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2024">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2024">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2024');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Precomfort plant optg mode</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2025">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2025">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2025');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Economy plant optg mode</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2026">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2026">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2026');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name">Sustained mode time minimum</td>
+<td class="dp_value">
+<div style="display:inline" id="dp2027">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit2027">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('2027');"> </td>
+</tr>
+<tr id="page-dynamic-end">
+<td  colspan="4" class="line-end" ></td>
+</tr>
+</table>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+initDataPointUpdate();
+});
+});
+</script>
+</div>
+</div>
+</body>
+</html>

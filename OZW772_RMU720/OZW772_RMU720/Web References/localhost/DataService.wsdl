@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="DataService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:8733/DataService/?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:8733/DataService/?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:8733/DataService/?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/MasterSCADAWindowsService" />
+      <xsd:import schemaLocation="http://localhost:8733/DataService/?xsd=xsd3" namespace="http://schemas.microsoft.com/2003/10/Serialization/Arrays" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IDataService_GetData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetData" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_GetData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_PostWriteValueHttps_InputMessage">
+    <wsdl:part name="parameters" element="tns:PostWriteValueHttps" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_PostWriteValueHttps_OutputMessage">
+    <wsdl:part name="parameters" element="tns:PostWriteValueHttpsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_Init_InputMessage">
+    <wsdl:part name="parameters" element="tns:Init" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_Init_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InitResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_StartUpdating_InputMessage">
+    <wsdl:part name="parameters" element="tns:StartUpdating" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_StartUpdating_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StartUpdatingResponse" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_StopUpdating_InputMessage">
+    <wsdl:part name="parameters" element="tns:StopUpdating" />
+  </wsdl:message>
+  <wsdl:message name="IDataService_StopUpdating_OutputMessage">
+    <wsdl:part name="parameters" element="tns:StopUpdatingResponse" />
+  </wsdl:message>
+  <wsdl:portType name="IDataService">
+    <wsdl:operation name="GetData">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/GetData" message="tns:IDataService_GetData_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/GetDataResponse" message="tns:IDataService_GetData_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="PostWriteValueHttps">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/PostWriteValueHttps" message="tns:IDataService_PostWriteValueHttps_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/PostWriteValueHttpsResponse" message="tns:IDataService_PostWriteValueHttps_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="Init">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/Init" message="tns:IDataService_Init_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/InitResponse" message="tns:IDataService_Init_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StartUpdating">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/StartUpdating" message="tns:IDataService_StartUpdating_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/StartUpdatingResponse" message="tns:IDataService_StartUpdating_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="StopUpdating">
+      <wsdl:input wsaw:Action="http://tempuri.org/IDataService/StopUpdating" message="tns:IDataService_StopUpdating_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/IDataService/StopUpdatingResponse" message="tns:IDataService_StopUpdating_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="BasicHttpBinding_IDataService" type="tns:IDataService">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetData">
+      <soap:operation soapAction="http://tempuri.org/IDataService/GetData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostWriteValueHttps">
+      <soap:operation soapAction="http://tempuri.org/IDataService/PostWriteValueHttps" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="Init">
+      <soap:operation soapAction="http://tempuri.org/IDataService/Init" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StartUpdating">
+      <soap:operation soapAction="http://tempuri.org/IDataService/StartUpdating" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="StopUpdating">
+      <soap:operation soapAction="http://tempuri.org/IDataService/StopUpdating" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="DataService">
+    <wsdl:port name="BasicHttpBinding_IDataService" binding="tns:BasicHttpBinding_IDataService">
+      <soap:address location="http://localhost:8733/DataService/" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,196 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OZW772.01</title>
+<link rel="stylesheet" type="text/css" href="./layout/default/css/style.css" />
+<link rel="shortcut icon" type="image/x-icon" href="./layout/default/img/icon772.ico?v=1447243239" />
+<link rel="stylesheet" type="text/css" href="./layout/default/css/diagram/diagram.css" />
+<link rel="stylesheet" type="text/css" href="./layout/default/css/diagram/diagram_dialog.css" />
+<script type="text/javascript" src="./js/lib/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="./layout/default/css/style_zoom_false.css" />
+<link rel="stylesheet" type="text/css" href="./themes/lib/css/jquery-ui-1.10.1/jquery-ui.css" />
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.core.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.mouse.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.draggable.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.position.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.resizable.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.dialog.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+initDialogBox();
+});
+</script>
+<script type="text/javascript" src="./js/common.js"></script>
+</head>
+<body>
+<p><input type="hidden" id="zoom" value="false"/></p>
+<div id="dialogbox" title="Edit" >
+<iframe id="dialogboxiframe"  width="100%" height="100%" frameBorder="0" scrolling="no"></iframe>
+</div>
+<form action="" id="ajax">
+<p><input type="hidden" name="SessionId" value="7ef3ce55-3c56-45d1-a22c-6a264634c081"/></p>
+</form>
+<div class="key-visual-zone">
+</div>
+<div class="site-id-zone">
+</div>
+<div class="global-zone" style="background-image: url(./layout/default/img/logo.png)"></div>
+<div class="custom-logo-zone" style="background-image: url(./layout/default/img/customer.png)"></div>
+<div class="local-zone">
+<div class="plant-name">
+OZW772.01</div>
+<div class="zoom_lefttop"></div>
+</div>
+<div class="prim-nav-zone">
+<ul class="prim-nav">
+<li><a  class="actual" 	 href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard">Home</a></li>
+<li><span class="pipe"> | </span><a   href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=energyIndication">Energy indicator</a></li>
+<li><span class="pipe"> | </span><a 	 href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=faults">Faults</a></li>
+<li><span class="pipe"> | </span><a 	href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=fileTransfer">File transfer</a></li>
+<li><span class="pipe"> | </span><a  href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=settings">User accounts</a><li><span class="pipe"> | </span><a 	href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=configuration">Device web pages</a></li>
+</ul></div>
+<div class="currentuser-zone"><div class="currentuser-name"><a href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=logout">[Logout]</a>&nbsp;&nbsp;Administrator</div>
+</div>
+<div id="alarm-zone" style="display:inline;">
+<div class="alarm-yes" onclick="javascript:faults()">
+<div class="alarm-name">
+OZW772.01</div>
+<div class="alarm-text-fault">
+System time failure</div>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+resizeSecNavZone();
+initAlarmStateUpdate();
+});
+});
+</script>
+<div id="eni-zone" style="display:inline;"></div>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+initUpdateEniState();
+});
+});
+</script>
+<div class="bg-sec-nav-zone"></div>
+<div class="sec-nav-zone">
+<ul class="sec-nav">
+<li><a class="page-up text" href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=658&amp;idtype=4">Upward</a></li>
+<li class="page-line">&nbsp;</li>
+<li> <a class="page text" href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=659&amp;idtype=4">Room setpoints</a></li>
+<li> <a class="page text" href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=666&amp;idtype=4">Setpoint effects</a></li>
+<li> <a class="page text" href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=677&amp;idtype=4">Cascade controller</a></li>
+<li> <a class="page text actual " href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=684&amp;idtype=4">Control parameters</a></li>
+<li> <a class="page text" href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=692&amp;idtype=4">Sequence lock acc to OT</a></li>
+</ul>
+</div>
+<div class="content-zone">
+<div class="breadcrumb-zone">
+<ul class="breadcrumb-nav">
+	<li><a href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=1&amp;idtype=0">Home</a><span class="pipe"> &gt; </span></li>
+	<li><a href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=416&amp;idtype=2">0.2.249 RMU720B-4</a><span class="pipe"> &gt; </span></li>
+	<li><a href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=581&amp;idtype=4">Settings</a><span class="pipe"> &gt; </span></li>
+	<li><a href="./main.app?SessionId=7ef3ce55-3c56-45d1-a22c-6a264634c081&amp;section=popcard&amp;id=658&amp;idtype=4">Controller 1</a><span class="pipe"> &gt; </span></li>
+	<li class="current">Control parameters</li>
+</ul>
+</div>
+<div class="content-subzone">
+<input type="hidden" value="4" id="ItemIdTypeBackup" />
+<input type="hidden" value="684" id="ItemIdBackup" />
+<table class="dp_table">
+<tr>
+<th class="dp_name">Datapoint</th>
+<th class="dp_value">Value</th>
+<th class="dp_unit"></th>
+<th class="dp_edit"></th>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name_edit"  onclick="openDialog('685');">[Sequence 1       \_ ] Xp</td>
+<td class="dp_value">
+<div style="display:inline" id="dp685">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit685">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('685');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name_edit"  onclick="openDialog('686');">[Sequence 1       \_ ] Tn</td>
+<td class="dp_value">
+<div style="display:inline" id="dp686">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit686">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('686');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name_edit"  onclick="openDialog('687');">[Sequence 1       \_ ] Tv</td>
+<td class="dp_value">
+<div style="display:inline" id="dp687">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit687">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('687');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name_edit"  onclick="openDialog('688');">[Sequence 4 _/    ] Xp</td>
+<td class="dp_value">
+<div style="display:inline" id="dp688">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit688">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('688');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name_edit"  onclick="openDialog('689');">[Sequence 4 _/    ] Tn</td>
+<td class="dp_value">
+<div style="display:inline" id="dp689">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit689">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('689');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name_edit"  onclick="openDialog('690');">[Sequence 4 _/    ] Tv</td>
+<td class="dp_value">
+<div style="display:inline" id="dp690">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit690">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('690');"> </td>
+</tr>
+<tr onmouseover="highlightLine(this,1)" onmouseout="highlightLine(this,0)">
+<td class="dp_name_edit"  onclick="openDialog('691');">Control timeout</td>
+<td class="dp_value">
+<div style="display:inline" id="dp691">---</div>
+</td>
+<td class="dp_unit">
+<div style="display:inline" id="unit691">&nbsp;</div>
+</td>
+<td class="dp_edit" onclick="openDialog('691');"> </td>
+</tr>
+<tr id="page-dynamic-end">
+<td  colspan="4" class="line-end" ></td>
+</tr>
+</table>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+initDataPointUpdate();
+});
+});
+</script>
+</div>
+</div>
+</body>
+</html>

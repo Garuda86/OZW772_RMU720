@@ -1,0 +1,79 @@
+<!-- &copy; Siemens AG 2007 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+ <title>OZW772.01</title>
+ <link rel="stylesheet" type="text/css" href="./themes/lib/css/jquery-ui-1.10.1/jquery-ui.css" />
+<link rel="stylesheet" type="text/css" href="./layout/default/css/dialog/dialog_style.css" />
+<link rel="stylesheet" type="text/css" href="./layout/default/css/dialog/vala.css" />
+<script src="./js/lib/jquery-1.9.1.min.js" type="text/javascript"></script>
+<script src="./js/lib/jquery-ui-1.10.1/jquery.ui.core.js" type="text/javascript"></script>
+<script src="./js/lib/jquery-ui-1.10.1/jquery.ui.widget.js" type="text/javascript"></script>
+<script src="./js/lib/jquery-ui-1.10.1/jquery.ui.mouse.js" type="text/javascript"></script>
+<script src="./js/lib/jquery-ui-1.10.1/jquery.ui.slider.js" type="text/javascript"></script>
+<script src="./js/dialog/vala.js" type="text/javascript"></script>
+<script src="./js/dialog/dialog_common.js" type="text/javascript"></script>
+</head>
+<body class="dialog">
+<form name="dialogform" action="./dialog.app?SessionId=359fd449-e795-4834-9841-cc97a633185e" method="post" onsubmit="return checkNumericCorrected();" enctype="multipart/form-data" accept-charset="UTF-8">
+<input type="hidden" name="action" value="update"/>
+<input type="hidden" name="DpDescription" value="COzwValI16"/>
+<input type="hidden" name="id" value="892"/>
+<input type="hidden" name="min" value="0.0" />
+<input type="hidden" name="max" value="20.0" />
+<input type="hidden" name="res" value="0.1" />
+<input type="hidden" name="decimals" value="1" />
+<input type="hidden" name="unit" value="°C" />
+<input type="hidden" name="infotext" value="Entry corrected" />
+<input type="hidden" name="HasOSV" value="false" />
+<div class="control-position">
+<div class="control-row-title">
+<div class="control-cell-title">Comfort heating setpoint</div>
+</div>
+<div class="control-row-input">
+<div class="control-cell-input">
+<div class="control-cell-input-title">Value</div>
+<div class="control-pos-input" >
+<input type="text" class="input-middle" id="setpoint"  name="val"  maxlength="5" value="0.0" />
+</div>
+<div class="arrow up" onclick="SliderUp();" title=""> </div>
+<div class="arrow down" onclick="SliderDown();"  title=""></div>
+</div>
+<div class="control-cell-checkbox">
+</div>
+</div>
+<div class="control-row-slider">
+<div class="control-cell-slider">
+<div class="control-pos-slider">
+<div id="slider">
+</div>
+</div>
+<div id="lower">
+</div>
+<div id="upper">
+</div>
+</div>
+</div>
+<div class="control-row-button" >
+<div class="control-cell-button" >
+<div id="pix_info">
+<img src="./layout/default/img/empty.png" alt="" name="p_info" />
+</div>
+<div id="info">
+</div>
+<div class="dialog submit">
+ <input name="OK" type="submit" class="buttons"  value="OK" title="" /></div>
+<div class="dialog cancel">
+<input name="cancel" type="button"  class="buttons" value="Cancel" onclick="cancelDialog()" title="" /></div>
+</div>
+</div>
+</div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+InitValA();
+//]]>
+</script>
+</body>
+</html>

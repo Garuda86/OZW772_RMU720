@@ -1,0 +1,82 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <!-- &copy; Siemens AG 2007 -->
+    <title>OZW772.04</title>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <meta http-equiv="Content-Script-Type" content="text/javascript" />
+    <link rel="stylesheet" type="text/css" href="/layout/default/css/style.css" />
+    <script type="text/javascript" src="./js/common.js"></script>
+    <link rel="stylesheet" type="text/css" href="/layout/default/css/dialog/dialog_style.css" />
+    <script type="text/javascript" src="./js/dialog/dialog_common.js"></script>
+</head>
+<body>
+    <form action="" id="ajax">
+        <p><input type="hidden" name="SessionId" value="563d9a8c-12c2-4502-8bf3-6e150e68e0a0" /></p>
+    </form>
+    <div class="key-visual-zone">
+    </div>
+    <div class="site-id-zone">
+    </div>
+    <div class="global-zone" style="background-image: url(./layout/default/img/logo.png)"></div>
+    <div class="custom-logo-zone" style="background-image: url(./layout/custom/img/customer.png)"></div>
+    <div class="local-zone">
+    </div>
+    <div class="plant-name">
+        OZW772.04
+    </div>
+    <div class="prim-nav-zone">
+    </div>
+    <div class="bg-sec-nav-zone"></div>
+    <div class="sec-nav-zone">
+    </div>
+    <div class="content-zone">
+        <div class="breadcrumb-zone">
+        </div>
+        <div class="content-subzone">
+            <form action="main.app?SessionId=563d9a8c-12c2-4502-8bf3-6e150e68e0a0&amp;section=auth" method="post" id="loginform" enctype="multipart/form-data" accept-charset="UTF-8">
+                <div class="cont-position">
+                    <div class="cont-row-title">
+                        <div class="cont-cell-title">
+                            Login
+                        </div>
+                    </div>
+                    <div class="cont-row-input">
+                        <div class="cont-cell-input">
+                            User name
+                        </div>
+                        <div class="cont-cell-inputfield">
+                            <input name="user" type="text" class="login-field" onfocus="ClearInfo()" value="" />
+                        </div>
+                    </div>
+                    <div class="cont-row-input">
+                        <div class="cont-cell-input">
+                            Password
+                        </div>
+                        <div class="cont-cell-inputfield">
+                            <input name="pwd" type="password" class="login-field" onfocus="ClearInfo()" value="" />
+                        </div>
+                    </div>
+                    <div class="cont-row-button">
+                        <div class="cont-cell-button">
+                            <div id="pix_info">
+                                <img src="./layout/default/img/empty.png" alt="" name="p_info" />
+                            </div>
+                            <div id="info">
+                            </div>
+                            <div class="dialog cancel">
+                                <input type="submit" name="login" class="buttons" value="Login" title="" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>
+            <script type="text/javascript">
+                //<![CDATA[
+                document.getElementById("loginform").user.focus();
+                //]]>
+            </script>
+        </div>
+    </div>
+</body>
+</html>

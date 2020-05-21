@@ -1,0 +1,9 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="OZW772_RMU720.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="OZW772_RMU720_localhost_DataService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:8733/DataService/</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

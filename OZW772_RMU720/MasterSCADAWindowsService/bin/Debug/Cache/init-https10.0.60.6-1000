@@ -1,0 +1,114 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OZW772.01</title>
+<link rel="stylesheet" type="text/css" href="./layout/default/css/style.css" />
+<link rel="shortcut icon" type="image/x-icon" href="./layout/default/img/icon772.ico?v=1447336475" />
+<link rel="stylesheet" type="text/css" href="./layout/default/css/diagram/diagram.css" />
+<link rel="stylesheet" type="text/css" href="./layout/default/css/diagram/diagram_dialog.css" />
+<script type="text/javascript" src="./js/lib/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery-ui.js"></script>
+<link rel="stylesheet" type="text/css" href="./layout/default/css/style_zoom_false.css" />
+<link rel="stylesheet" type="text/css" href="./themes/lib/css/jquery-ui-1.10.1/jquery-ui.css" />
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.core.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.mouse.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.draggable.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.position.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.resizable.js"></script>
+<script type="text/javascript" src="./js/lib/jquery-ui-1.10.1/jquery.ui.dialog.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+initDialogBox();
+});
+</script>
+<script type="text/javascript" src="./js/common.js"></script>
+</head>
+<body>
+<p><input type="hidden" id="zoom" value="false"/></p>
+<div id="dialogbox" title="Edit" >
+<iframe id="dialogboxiframe"  width="100%" height="100%" frameBorder="0" scrolling="no"></iframe>
+</div>
+<form action="" id="ajax">
+<p><input type="hidden" name="SessionId" value="222af9dc-a2d2-4fd4-a82c-90bd274f73b6"/></p>
+</form>
+<div class="key-visual-zone">
+</div>
+<div class="site-id-zone">
+</div>
+<div class="global-zone" style="background-image: url(./layout/default/img/logo.png)"></div>
+<div class="custom-logo-zone" style="background-image: url(./layout/default/img/customer.png)"></div>
+<div class="local-zone">
+<div class="plant-name">
+OZW772.01</div>
+<div class="zoom_lefttop"></div>
+</div>
+<div class="prim-nav-zone">
+<ul class="prim-nav">
+<li><a  class="actual" 	 href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard">Home</a></li>
+<li><span class="pipe"> | </span><a   href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=energyIndication">Energy indicator</a></li>
+<li><span class="pipe"> | </span><a 	 href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=faults">Faults</a></li>
+<li><span class="pipe"> | </span><a 	href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=fileTransfer">File transfer</a></li>
+<li><span class="pipe"> | </span><a  href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=settings">User accounts</a><li><span class="pipe"> | </span><a 	href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=configuration">Device web pages</a></li>
+</ul></div>
+<div class="currentuser-zone"><div class="currentuser-name"><a href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=logout">[Logout]</a>&nbsp;&nbsp;Administrator</div>
+</div>
+<div id="alarm-zone" style="display:inline;">
+<div class="alarm-yes" onclick="javascript:faults()">
+<div class="alarm-name">
+OZW772.01</div>
+<div class="alarm-text-fault">
+System time failure</div>
+</div>
+</div>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+resizeSecNavZone();
+initAlarmStateUpdate();
+});
+});
+</script>
+<div id="eni-zone" style="display:inline;"></div>
+<script type="text/javascript">
+$(function(){
+$(document).ready(function(){
+initUpdateEniState();
+});
+});
+</script>
+<div class="bg-sec-nav-zone"></div>
+<div class="sec-nav-zone">
+<ul class="sec-nav">
+<li><a class="page-up text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=996&amp;idtype=4">Upward</a></li>
+<li class="page-line">&nbsp;</li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=996&amp;idtype=4">Device</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1002&amp;idtype=4">Operating mode</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1007&amp;idtype=4">Inputs</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1046&amp;idtype=4">Aggregates</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1073&amp;idtype=4">Controller 1</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1111&amp;idtype=4">Frost protection</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1120&amp;idtype=4">Preheating function</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1125&amp;idtype=4">Night cooling</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1130&amp;idtype=4">Faults</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1143&amp;idtype=4">Data acquisition</a></li>
+<li> <a class="page text" href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1162&amp;idtype=4">Texts</a></li>
+</ul>
+</div>
+<div class="content-zone">
+<div class="breadcrumb-zone">
+<ul class="breadcrumb-nav">
+	<li><a href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=1&amp;idtype=0">Home</a><span class="pipe"> &gt; </span></li>
+	<li><a href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=830&amp;idtype=2">0.2.248 RMU720B-4</a><span class="pipe"> &gt; </span></li>
+	<li><a href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=995&amp;idtype=4">Settings</a><span class="pipe"> &gt; </span></li>
+	<li><a href="./main.app?SessionId=222af9dc-a2d2-4fd4-a82c-90bd274f73b6&amp;section=popcard&amp;id=996&amp;idtype=4">Device</a><span class="pipe"> &gt; </span></li>
+	<li class="current">Contrast</li>
+</ul>
+</div>
+<div class="content-subzone">
+<input type="hidden" value="4" id="ItemIdTypeBackup" />
+<input type="hidden" value="1000" id="ItemIdBackup" />
+</div>
+</div>
+</body>
+</html>

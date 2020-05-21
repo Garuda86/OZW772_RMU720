@@ -1,0 +1,1390 @@
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:39:05:271
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:39:05:449
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:39:06:32
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:39:06:33
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:39:06:39
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:39:06:531
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:39:06:535
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:39:07:330
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:39:07:355
+
+[INFO]Start parsing; Time=10.11.2015 23:39:08:135
+
+[INFO]Start parsing; Time=10.11.2015 23:39:09:8
+
+[INFO]End parsing; Time=10.11.2015 23:39:21:298
+
+[INFO]Start parsing; Time=10.11.2015 23:39:21:299
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:39:37:347
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:39:37:349
+
+[INFO]End parsing; Time=10.11.2015 23:39:37:352
+
+[INFO]Start parsing; Time=10.11.2015 23:39:37:355
+
+[INFO]End parsing; Time=10.11.2015 23:39:47:755
+
+[INFO]Start parsing; Time=10.11.2015 23:39:47:757
+
+[INFO]End parsing; Time=10.11.2015 23:40:03:131
+
+[INFO]Start parsing; Time=10.11.2015 23:40:03:133
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:40:16:347
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:40:16:357
+
+[INFO]End parsing; Time=10.11.2015 23:40:16:765
+
+[INFO]Start parsing; Time=10.11.2015 23:40:16:766
+
+[INFO]End parsing; Time=10.11.2015 23:40:27:69
+
+[INFO]Start parsing; Time=10.11.2015 23:40:27:71
+
+[INFO]End parsing; Time=10.11.2015 23:40:41:798
+
+[INFO]Start parsing; Time=10.11.2015 23:40:41:799
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:40:51:919
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:40:51:928
+
+[INFO]End parsing; Time=10.11.2015 23:40:54:418
+
+[INFO]Start parsing; Time=10.11.2015 23:40:54:420
+
+[INFO]End parsing; Time=10.11.2015 23:41:05:760
+
+[INFO]Start parsing; Time=10.11.2015 23:41:05:784
+
+[INFO]End parsing; Time=10.11.2015 23:41:18:664
+
+[INFO]Start parsing; Time=10.11.2015 23:41:18:666
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:41:31:421
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:41:31:431
+
+[INFO]End parsing; Time=10.11.2015 23:41:33:937
+
+[INFO]Start parsing; Time=10.11.2015 23:41:33:940
+
+[INFO]End parsing; Time=10.11.2015 23:41:44:487
+
+[INFO]Start parsing; Time=10.11.2015 23:41:44:487
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:41:46:744
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:41:46:752
+
+[INFO]End parsing; Time=10.11.2015 23:41:57:232
+
+[INFO]Start parsing; Time=10.11.2015 23:41:57:233
+
+[INFO]End parsing; Time=10.11.2015 23:42:14:334
+
+[INFO]Start parsing; Time=10.11.2015 23:42:14:334
+
+[INFO]End parsing; Time=10.11.2015 23:42:25:201
+
+[INFO]Start parsing; Time=10.11.2015 23:42:25:205
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:42:36:721
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:42:36:742
+
+[INFO]End parsing; Time=10.11.2015 23:42:39:369
+
+[INFO]Start parsing; Time=10.11.2015 23:42:39:369
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:42:47:150
+
+[INFO]End parsing; Time=10.11.2015 23:42:49:862
+
+[INFO]Start parsing; Time=10.11.2015 23:42:49:864
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:42:57:19
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:42:57:21
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:42:57:24
+
+[INFO]Start parsing; Time=10.11.2015 23:43:00:2
+
+[INFO]End parsing; Time=10.11.2015 23:43:05:250
+
+[INFO]Start parsing; Time=10.11.2015 23:43:05:254
+
+[INFO]End parsing; Time=10.11.2015 23:43:17:790
+
+[INFO]Start parsing; Time=10.11.2015 23:43:17:792
+
+[INFO]End parsing; Time=10.11.2015 23:43:29:639
+
+[INFO]Start parsing; Time=10.11.2015 23:43:29:639
+
+[INFO]End parsing; Time=10.11.2015 23:43:43:522
+
+[INFO]Start parsing; Time=10.11.2015 23:43:43:524
+
+[INFO]End parsing; Time=10.11.2015 23:43:56:274
+
+[INFO]Start parsing; Time=10.11.2015 23:43:56:275
+
+[INFO]End parsing; Time=10.11.2015 23:44:07:58
+
+[INFO]Start parsing; Time=10.11.2015 23:44:07:60
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:44:08:291
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:44:08:297
+
+[INFO]End parsing; Time=10.11.2015 23:44:20:20
+
+[INFO]Start parsing; Time=10.11.2015 23:44:20:20
+
+[INFO]End parsing; Time=10.11.2015 23:44:33:152
+
+[INFO]Start parsing; Time=10.11.2015 23:44:33:153
+
+[INFO]End parsing; Time=10.11.2015 23:44:43:742
+
+[INFO]Start parsing; Time=10.11.2015 23:44:43:745
+
+[INFO]End parsing; Time=10.11.2015 23:44:57:723
+
+[INFO]Start parsing; Time=10.11.2015 23:44:57:727
+
+[INFO]End parsing; Time=10.11.2015 23:45:07:646
+
+[INFO]Start parsing; Time=10.11.2015 23:45:07:647
+
+[INFO]End parsing; Time=10.11.2015 23:45:22:811
+
+[INFO]Start parsing; Time=10.11.2015 23:45:22:814
+
+[INFO]End parsing; Time=10.11.2015 23:45:35:799
+
+[INFO]Start parsing; Time=10.11.2015 23:45:35:801
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:45:38:859
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:45:38:871
+
+[INFO]End parsing; Time=10.11.2015 23:45:47:732
+
+[INFO]Start parsing; Time=10.11.2015 23:45:47:735
+
+[INFO]End parsing; Time=10.11.2015 23:46:00:381
+
+[INFO]Start parsing; Time=10.11.2015 23:46:00:382
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:46:01:730
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:46:01:735
+
+[INFO]End parsing; Time=10.11.2015 23:46:11:485
+
+[INFO]Start parsing; Time=10.11.2015 23:46:11:485
+
+[INFO]End parsing; Time=10.11.2015 23:46:24:551
+
+[INFO]Start parsing; Time=10.11.2015 23:46:24:552
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:46:30:858
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:46:30:860
+
+[INFO]End parsing; Time=10.11.2015 23:46:38:381
+
+[INFO]Start parsing; Time=10.11.2015 23:46:38:382
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:46:45:40
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:46:45:44
+
+[INFO]End parsing; Time=10.11.2015 23:46:49:913
+
+[INFO]Start parsing; Time=10.11.2015 23:46:49:917
+
+[INFO]End parsing; Time=10.11.2015 23:47:02:183
+
+[INFO]Start parsing; Time=10.11.2015 23:47:02:184
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:47:04:316
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:47:04:320
+
+[INFO]End parsing; Time=10.11.2015 23:47:16:613
+
+[INFO]Start parsing; Time=10.11.2015 23:47:16:614
+
+[INFO]End parsing; Time=10.11.2015 23:47:26:915
+
+[INFO]Start parsing; Time=10.11.2015 23:47:26:939
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:47:28:174
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:47:28:176
+
+[INFO]End parsing; Time=10.11.2015 23:47:39:719
+
+[INFO]Start parsing; Time=10.11.2015 23:47:39:721
+
+[INFO]End parsing; Time=10.11.2015 23:47:50:136
+
+[INFO]Start parsing; Time=10.11.2015 23:47:50:137
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:47:51:963
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:47:53:775
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:47:53:776
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:47:53:778
+
+[INFO]Start parsing; Time=10.11.2015 23:47:56:778
+
+[INFO]End parsing; Time=10.11.2015 23:48:05:693
+
+[INFO]Start parsing; Time=10.11.2015 23:48:05:694
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:48:09:732
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:48:09:734
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:48:15:203
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:48:15:207
+
+[INFO]End parsing; Time=10.11.2015 23:48:17:117
+
+[INFO]Start parsing; Time=10.11.2015 23:48:17:118
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:48:21:266
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:48:21:272
+
+[INFO]End parsing; Time=10.11.2015 23:48:21:808
+
+[INFO]Start parsing; Time=10.11.2015 23:48:21:811
+
+[INFO]End parsing; Time=10.11.2015 23:48:27:647
+
+[INFO]Start parsing; Time=10.11.2015 23:48:27:648
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:48:36:989
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:48:36:997
+
+[INFO]End parsing; Time=10.11.2015 23:48:40:591
+
+[INFO]Start parsing; Time=10.11.2015 23:48:40:606
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:48:41:497
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:48:41:504
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:48:44:667
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:48:44:669
+
+[INFO]End parsing; Time=10.11.2015 23:48:47:270
+
+[INFO]Start parsing; Time=10.11.2015 23:48:47:272
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:48:48:7
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:48:48:9
+
+[INFO]End parsing; Time=10.11.2015 23:48:53:407
+
+[INFO]Start parsing; Time=10.11.2015 23:48:53:410
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:49:00:444
+
+[INFO]End parsing; Time=10.11.2015 23:49:03:869
+
+[INFO]Start parsing; Time=10.11.2015 23:49:03:871
+
+[INFO]End parsing; Time=10.11.2015 23:49:04:610
+
+[INFO]Start parsing; Time=10.11.2015 23:49:04:627
+
+[INFO]End parsing; Time=10.11.2015 23:49:17:530
+
+[INFO]Start parsing; Time=10.11.2015 23:49:17:535
+
+[INFO]End parsing; Time=10.11.2015 23:49:21:288
+
+[INFO]Start parsing; Time=10.11.2015 23:49:21:290
+
+[INFO]End parsing; Time=10.11.2015 23:49:29:660
+
+[INFO]Start parsing; Time=10.11.2015 23:49:29:661
+
+[INFO]End parsing; Time=10.11.2015 23:49:36:843
+
+[INFO]Start parsing; Time=10.11.2015 23:49:36:846
+
+[INFO]End parsing; Time=10.11.2015 23:49:41:237
+
+[INFO]Start parsing; Time=10.11.2015 23:49:41:238
+
+[INFO]End parsing; Time=10.11.2015 23:49:54:396
+
+[INFO]Start parsing; Time=10.11.2015 23:49:54:398
+
+[INFO]End parsing; Time=10.11.2015 23:49:54:842
+
+[INFO]Start parsing; Time=10.11.2015 23:49:54:844
+
+[INFO]End parsing; Time=10.11.2015 23:50:04:624
+
+[INFO]Start parsing; Time=10.11.2015 23:50:04:625
+
+[INFO]End parsing; Time=10.11.2015 23:50:12:179
+
+[INFO]Start parsing; Time=10.11.2015 23:50:12:182
+
+[INFO]End parsing; Time=10.11.2015 23:50:18:127
+
+[INFO]Start parsing; Time=10.11.2015 23:50:18:128
+
+[INFO]End parsing; Time=10.11.2015 23:50:29:741
+
+[INFO]Start parsing; Time=10.11.2015 23:50:29:742
+
+[INFO]End parsing; Time=10.11.2015 23:50:29:813
+
+[INFO]Start parsing; Time=10.11.2015 23:50:29:815
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:50:40:515
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:50:40:517
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:50:40:524
+
+[INFO]End parsing; Time=10.11.2015 23:50:42:22
+
+[INFO]Start parsing; Time=10.11.2015 23:50:42:24
+
+[INFO]End parsing; Time=10.11.2015 23:50:47:481
+
+[INFO]Start parsing; Time=10.11.2015 23:50:47:482
+
+[INFO]End parsing; Time=10.11.2015 23:50:54:586
+
+[INFO]Start parsing; Time=10.11.2015 23:50:54:587
+
+[INFO]End parsing; Time=10.11.2015 23:51:03:11
+
+[INFO]Start parsing; Time=10.11.2015 23:51:03:11
+
+[INFO]End parsing; Time=10.11.2015 23:51:05:543
+
+[INFO]Start parsing; Time=10.11.2015 23:51:05:544
+
+[INFO]End parsing; Time=10.11.2015 23:51:18:350
+
+[INFO]Start parsing; Time=10.11.2015 23:51:18:353
+
+[INFO]End parsing; Time=10.11.2015 23:51:18:360
+
+[INFO]Start parsing; Time=10.11.2015 23:51:18:365
+
+[INFO]End parsing; Time=10.11.2015 23:51:30:884
+
+[INFO]Start parsing; Time=10.11.2015 23:51:30:889
+
+[INFO]End parsing; Time=10.11.2015 23:51:33:967
+
+[INFO]Start parsing; Time=10.11.2015 23:51:33:969
+
+[INFO]End parsing; Time=10.11.2015 23:51:44:782
+
+[INFO]Start parsing; Time=10.11.2015 23:51:44:784
+
+[INFO]End parsing; Time=10.11.2015 23:51:50:851
+
+[INFO]Start parsing; Time=10.11.2015 23:51:50:852
+
+[INFO]End parsing; Time=10.11.2015 23:51:54:917
+
+[INFO]Start parsing; Time=10.11.2015 23:51:54:920
+
+[INFO]End parsing; Time=10.11.2015 23:52:07:850
+
+[INFO]End parsing; Time=10.11.2015 23:52:07:851
+
+[INFO]Start parsing; Time=10.11.2015 23:52:07:853
+
+[INFO]Start parsing; Time=10.11.2015 23:52:07:853
+
+[INFO]End parsing; Time=10.11.2015 23:52:19:548
+
+[INFO]Start parsing; Time=10.11.2015 23:52:19:549
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:52:23:785
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:52:23:786
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:52:23:796
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:52:23:798
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:52:41:70
+
+[INFO]End parsing; Time=10.11.2015 23:52:41:348
+
+[INFO]Start parsing; Time=10.11.2015 23:52:41:349
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:52:42:125
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:52:42:165
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:52:42:171
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:52:46:306
+
+[INFO]Start parsing; Time=10.11.2015 23:52:46:567
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:52:47:669
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:52:47:672
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:52:47:672
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:52:56:834
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:52:56:839
+
+[INFO]End parsing; Time=10.11.2015 23:52:56:857
+
+[INFO]Start parsing; Time=10.11.2015 23:52:56:861
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:52:57:227
+
+[INFO]End parsing; Time=10.11.2015 23:52:57:263
+
+[INFO]Start parsing; Time=10.11.2015 23:52:57:264
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:53:01:920
+
+[INFO]End parsing; Time=10.11.2015 23:53:12:95
+
+[INFO]Start parsing; Time=10.11.2015 23:53:12:98
+
+[INFO]End parsing; Time=10.11.2015 23:53:17:233
+
+[INFO]Start parsing; Time=10.11.2015 23:53:17:243
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:53:17:248
+
+[INFO]End parsing; Time=10.11.2015 23:53:17:235
+
+[INFO]Start parsing; Time=10.11.2015 23:53:17:263
+
+[INFO]End parsing; Time=10.11.2015 23:53:17:244
+
+[INFO]Start parsing; Time=10.11.2015 23:53:17:270
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:53:17:270
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:53:17:274
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:53:20:999
+
+[INFO]End parsing; Time=10.11.2015 23:53:27:853
+
+[INFO]Start parsing; Time=10.11.2015 23:53:27:857
+
+[INFO]End parsing; Time=10.11.2015 23:53:31:181
+
+[INFO]Start parsing; Time=10.11.2015 23:53:31:182
+
+[INFO]End parsing; Time=10.11.2015 23:53:41:338
+
+[INFO]Start parsing; Time=10.11.2015 23:53:41:341
+
+[INFO]End parsing; Time=10.11.2015 23:53:45:373
+
+[INFO]Start parsing; Time=10.11.2015 23:53:45:380
+
+[INFO]End parsing; Time=10.11.2015 23:53:55:186
+
+[INFO]Start parsing; Time=10.11.2015 23:53:55:188
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:53:55:196
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:53:55:199
+
+[INFO]End parsing; Time=10.11.2015 23:54:02:706
+
+[INFO]Start parsing; Time=10.11.2015 23:54:02:720
+
+[INFO]End parsing; Time=10.11.2015 23:54:08:333
+
+[INFO]Start parsing; Time=10.11.2015 23:54:08:334
+
+[INFO]End parsing; Time=10.11.2015 23:54:19:242
+
+[INFO]Start parsing; Time=10.11.2015 23:54:19:265
+
+[INFO]End parsing; Time=10.11.2015 23:54:19:272
+
+[INFO]Start parsing; Time=10.11.2015 23:54:19:274
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:54:28:65
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:54:28:82
+
+[INFO]End parsing; Time=10.11.2015 23:54:32:452
+
+[INFO]Start parsing; Time=10.11.2015 23:54:32:458
+
+[INFO]End parsing; Time=10.11.2015 23:54:36:188
+
+[INFO]Start parsing; Time=10.11.2015 23:54:36:189
+
+[INFO]End parsing; Time=10.11.2015 23:54:46:207
+
+[INFO]Start parsing; Time=10.11.2015 23:54:46:208
+
+[INFO]End parsing; Time=10.11.2015 23:54:50:602
+
+[INFO]Start parsing; Time=10.11.2015 23:54:50:603
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:54:51:814
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:54:55:881
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:54:55:882
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:54:55:886
+
+[INFO]End parsing; Time=10.11.2015 23:54:57:268
+
+[INFO]Start parsing; Time=10.11.2015 23:54:57:273
+
+[INFO]End parsing; Time=10.11.2015 23:55:06:312
+
+[INFO]Start parsing; Time=10.11.2015 23:55:06:313
+
+[INFO]End parsing; Time=10.11.2015 23:55:09:792
+
+[INFO]Start parsing; Time=10.11.2015 23:55:09:793
+
+[INFO]End parsing; Time=10.11.2015 23:55:21:351
+
+[INFO]Start parsing; Time=10.11.2015 23:55:21:353
+
+[INFO]End parsing; Time=10.11.2015 23:55:21:987
+
+[INFO]Start parsing; Time=10.11.2015 23:55:21:988
+
+[INFO]End parsing; Time=10.11.2015 23:55:33:992
+
+[INFO]Start parsing; Time=10.11.2015 23:55:33:993
+
+[INFO]End parsing; Time=10.11.2015 23:55:37:795
+
+[INFO]Start parsing; Time=10.11.2015 23:55:37:796
+
+[INFO]End parsing; Time=10.11.2015 23:55:45:813
+
+[INFO]Start parsing; Time=10.11.2015 23:55:45:820
+
+[INFO]End parsing; Time=10.11.2015 23:55:55:827
+
+[INFO]Start parsing; Time=10.11.2015 23:55:55:827
+
+[INFO]End parsing; Time=10.11.2015 23:55:59:33
+
+[INFO]Start parsing; Time=10.11.2015 23:55:59:35
+
+[INFO]End parsing; Time=10.11.2015 23:56:11:321
+
+[INFO]Start parsing; Time=10.11.2015 23:56:11:322
+
+[INFO]End parsing; Time=10.11.2015 23:56:13:207
+
+[INFO]Start parsing; Time=10.11.2015 23:56:13:209
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:56:18:774
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:56:18:785
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:56:18:786
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:56:18:792
+
+[INFO]End parsing; Time=10.11.2015 23:56:22:791
+
+[INFO]Start parsing; Time=10.11.2015 23:56:22:791
+
+[INFO]End parsing; Time=10.11.2015 23:56:30:8
+
+[INFO]Start parsing; Time=10.11.2015 23:56:30:9
+
+[INFO]End parsing; Time=10.11.2015 23:56:36:164
+
+[INFO]Start parsing; Time=10.11.2015 23:56:36:165
+
+[INFO]End parsing; Time=10.11.2015 23:56:45:931
+
+[INFO]Start parsing; Time=10.11.2015 23:56:45:931
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:56:47:559
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:56:47:627
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:56:47:627
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:56:47:630
+
+[INFO]End parsing; Time=10.11.2015 23:56:48:610
+
+[INFO]Start parsing; Time=10.11.2015 23:56:48:610
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:56:56:419
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:56:56:427
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:56:56:428
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:56:56:438
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:56:57:144
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:56:57:149
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:56:58:475
+
+[INFO]Start GetData ----------------------------------------; Time=10.11.2015 23:56:58:524
+
+[INFO]End GetData ----------------------------------------; Time=10.11.2015 23:56:58:525
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:56:58:527
+
+[INFO]End parsing; Time=10.11.2015 23:57:01:616
+
+[INFO]Start parsing; Time=10.11.2015 23:57:01:617
+
+[INFO]End parsing; Time=10.11.2015 23:57:05:540
+
+[INFO]Start parsing; Time=10.11.2015 23:57:05:542
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:57:12:590
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:57:12:598
+
+[INFO]End parsing; Time=10.11.2015 23:57:14:802
+
+[INFO]Start parsing; Time=10.11.2015 23:57:14:806
+
+[INFO]End parsing; Time=10.11.2015 23:57:18:291
+
+[INFO]Start parsing; Time=10.11.2015 23:57:18:292
+
+[INFO]End parsing; Time=10.11.2015 23:57:26:994
+
+[INFO]Start parsing; Time=10.11.2015 23:57:26:996
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:57:32:9
+
+[INFO]Start PostData ----------------------------------------; Time=10.11.2015 23:57:32:16
+
+[INFO]End parsing; Time=10.11.2015 23:57:35:836
+
+[INFO]Start parsing; Time=10.11.2015 23:57:35:838
+
+[INFO]End parsing; Time=10.11.2015 23:57:38:913
+
+[INFO]Start parsing; Time=10.11.2015 23:57:38:917
+
+[INFO]End parsing; Time=10.11.2015 23:57:48:950
+
+[INFO]Start parsing; Time=10.11.2015 23:57:48:951
+
+[INFO]End parsing; Time=10.11.2015 23:57:52:227
+
+[INFO]Start parsing; Time=10.11.2015 23:57:52:231
+
+[INFO]End PostData ----------------------------------------; Time=10.11.2015 23:58:00:824
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:01:06:93
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:01:06:231
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:01:08:654
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:01:08:658
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:01:08:667
+
+[INFO]Start parsing; Time=11.11.2015 0:01:08:943
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:01:09:460
+
+[INFO]Start parsing; Time=11.11.2015 0:01:11:653
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:01:18:2
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:01:18:3
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:01:18:7
+
+[INFO]Start parsing; Time=11.11.2015 0:01:21:12
+
+[INFO]End parsing; Time=11.11.2015 0:01:22:12
+
+[INFO]Start parsing; Time=11.11.2015 0:01:22:14
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:01:32:113
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:01:33:754
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:01:33:755
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:01:33:758
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:01:33:789
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:01:33:791
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:01:34:294
+
+[INFO]End parsing; Time=11.11.2015 0:01:34:640
+
+[INFO]Start parsing; Time=11.11.2015 0:01:34:644
+
+[INFO]Start parsing; Time=11.11.2015 0:01:37:699
+
+[INFO]End parsing; Time=11.11.2015 0:01:47:283
+
+[INFO]Start parsing; Time=11.11.2015 0:01:47:290
+
+[INFO]End parsing; Time=11.11.2015 0:01:54:792
+
+[INFO]Start parsing; Time=11.11.2015 0:01:54:794
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:01:55:489
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:01:55:490
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:01:55:492
+
+[INFO]End parsing; Time=11.11.2015 0:02:01:657
+
+[INFO]Start parsing; Time=11.11.2015 0:02:01:661
+
+[INFO]Start parsing; Time=11.11.2015 0:02:06:761
+
+[INFO]End parsing; Time=11.11.2015 0:02:10:999
+
+[INFO]Start parsing; Time=11.11.2015 0:02:11:0
+
+[INFO]End parsing; Time=11.11.2015 0:02:12:212
+
+[INFO]Start parsing; Time=11.11.2015 0:02:12:217
+
+[INFO]End parsing; Time=11.11.2015 0:02:23:493
+
+[INFO]Start parsing; Time=11.11.2015 0:02:23:494
+
+[INFO]End parsing; Time=11.11.2015 0:02:27:542
+
+[INFO]Start parsing; Time=11.11.2015 0:02:27:543
+
+[INFO]End parsing; Time=11.11.2015 0:02:42:745
+
+[INFO]Start parsing; Time=11.11.2015 0:02:42:746
+
+[INFO]End parsing; Time=11.11.2015 0:02:53:735
+
+[INFO]Start parsing; Time=11.11.2015 0:02:53:735
+
+[INFO]End parsing; Time=11.11.2015 0:02:58:565
+
+[INFO]Start parsing; Time=11.11.2015 0:02:58:566
+
+[INFO]End parsing; Time=11.11.2015 0:03:02:769
+
+[INFO]Start parsing; Time=11.11.2015 0:03:02:772
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:03:03:293
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:03:03:298
+
+[INFO]End parsing; Time=11.11.2015 0:03:10:881
+
+[INFO]Start parsing; Time=11.11.2015 0:03:10:883
+
+[INFO]End parsing; Time=11.11.2015 0:03:13:923
+
+[INFO]Start parsing; Time=11.11.2015 0:03:13:929
+
+[INFO]End parsing; Time=11.11.2015 0:03:14:792
+
+[INFO]Start parsing; Time=11.11.2015 0:03:14:794
+
+[INFO]End parsing; Time=11.11.2015 0:03:26:92
+
+[INFO]Start parsing; Time=11.11.2015 0:03:26:93
+
+[INFO]End parsing; Time=11.11.2015 0:03:31:884
+
+[INFO]Start parsing; Time=11.11.2015 0:03:31:888
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:03:37:192
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:03:37:195
+
+[INFO]End parsing; Time=11.11.2015 0:03:40:164
+
+[INFO]Start parsing; Time=11.11.2015 0:03:40:167
+
+[INFO]End parsing; Time=11.11.2015 0:03:48:826
+
+[INFO]Start parsing; Time=11.11.2015 0:03:48:832
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:04:06:34
+
+[INFO]End parsing; Time=11.11.2015 0:04:06:239
+
+[INFO]Start parsing; Time=11.11.2015 0:04:06:242
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:04:09:138
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:04:09:139
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:04:16:283
+
+[INFO]End parsing; Time=11.11.2015 0:04:16:324
+
+[INFO]Start parsing; Time=11.11.2015 0:04:16:353
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:04:17:433
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:04:17:437
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:04:17:438
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:04:20:176
+
+[INFO]End parsing; Time=11.11.2015 0:04:23:22
+
+[INFO]Start parsing; Time=11.11.2015 0:04:23:25
+
+[INFO]End parsing; Time=11.11.2015 0:04:25:853
+
+[INFO]Start parsing; Time=11.11.2015 0:04:25:855
+
+[INFO]End parsing; Time=11.11.2015 0:04:28:50
+
+[INFO]Start parsing; Time=11.11.2015 0:04:28:51
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:04:29:603
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:04:29:606
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:04:29:607
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:04:29:609
+
+[INFO]End parsing; Time=11.11.2015 0:04:30:13
+
+[INFO]Start parsing; Time=11.11.2015 0:04:30:15
+
+[INFO]End parsing; Time=11.11.2015 0:04:37:881
+
+[INFO]Start parsing; Time=11.11.2015 0:04:37:883
+
+[INFO]End parsing; Time=11.11.2015 0:04:41:708
+
+[INFO]Start parsing; Time=11.11.2015 0:04:41:708
+
+[INFO]End parsing; Time=11.11.2015 0:04:53:649
+
+[INFO]Start parsing; Time=11.11.2015 0:04:53:652
+
+[INFO]End parsing; Time=11.11.2015 0:04:53:842
+
+[INFO]Start parsing; Time=11.11.2015 0:04:53:843
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:05:02:51
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:05:02:63
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:05:02:64
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:05:02:68
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:05:04:383
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:05:04:393
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:05:06:336
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:05:06:343
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:05:06:344
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:05:06:347
+
+[INFO]End parsing; Time=11.11.2015 0:05:09:909
+
+[INFO]Start parsing; Time=11.11.2015 0:05:09:913
+
+[INFO]End parsing; Time=11.11.2015 0:05:17:405
+
+[INFO]Start parsing; Time=11.11.2015 0:05:17:420
+
+[INFO]End parsing; Time=11.11.2015 0:05:27:307
+
+[INFO]Start parsing; Time=11.11.2015 0:05:27:310
+
+[INFO]End parsing; Time=11.11.2015 0:05:27:882
+
+[INFO]Start parsing; Time=11.11.2015 0:05:27:886
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:05:30:172
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:05:30:205
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:05:30:206
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:05:30:216
+
+[INFO]End parsing; Time=11.11.2015 0:05:30:861
+
+[INFO]Start parsing; Time=11.11.2015 0:05:30:862
+
+[INFO]End parsing; Time=11.11.2015 0:05:44:92
+
+[INFO]Start parsing; Time=11.11.2015 0:05:44:94
+
+[INFO]End parsing; Time=11.11.2015 0:05:45:858
+
+[INFO]Start parsing; Time=11.11.2015 0:05:45:858
+
+[INFO]End parsing; Time=11.11.2015 0:05:54:272
+
+[INFO]Start parsing; Time=11.11.2015 0:05:54:276
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:05:58:675
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:06:01:728
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:06:01:730
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:06:01:738
+
+[INFO]End parsing; Time=11.11.2015 0:06:02:275
+
+[INFO]Start parsing; Time=11.11.2015 0:06:02:277
+
+[INFO]End parsing; Time=11.11.2015 0:06:04:991
+
+[INFO]Start parsing; Time=11.11.2015 0:06:04:992
+
+[INFO]End parsing; Time=11.11.2015 0:06:20:513
+
+[INFO]Start parsing; Time=11.11.2015 0:06:20:515
+
+[INFO]End parsing; Time=11.11.2015 0:06:25:912
+
+[INFO]Start parsing; Time=11.11.2015 0:06:25:914
+
+[INFO]End parsing; Time=11.11.2015 0:06:36:696
+
+[INFO]Start parsing; Time=11.11.2015 0:06:36:697
+
+[INFO]End parsing; Time=11.11.2015 0:06:38:299
+
+[INFO]Start parsing; Time=11.11.2015 0:06:38:303
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:06:50:635
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:06:50:639
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:06:50:640
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:06:50:642
+
+[INFO]End parsing; Time=11.11.2015 0:06:52:274
+
+[INFO]Start parsing; Time=11.11.2015 0:06:52:277
+
+[INFO]End parsing; Time=11.11.2015 0:06:53:608
+
+[INFO]Start parsing; Time=11.11.2015 0:06:53:609
+
+[INFO]End parsing; Time=11.11.2015 0:06:55:337
+
+[INFO]Start parsing; Time=11.11.2015 0:06:55:337
+
+[INFO]End parsing; Time=11.11.2015 0:07:08:50
+
+[INFO]Start parsing; Time=11.11.2015 0:07:08:51
+
+[INFO]End parsing; Time=11.11.2015 0:07:08:794
+
+[INFO]Start parsing; Time=11.11.2015 0:07:08:796
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:07:14:254
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:07:14:257
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:07:14:257
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:07:14:262
+
+[INFO]End parsing; Time=11.11.2015 0:07:20:658
+
+[INFO]Start parsing; Time=11.11.2015 0:07:20:659
+
+[INFO]End parsing; Time=11.11.2015 0:07:26:305
+
+[INFO]Start parsing; Time=11.11.2015 0:07:26:310
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:07:38:327
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:07:38:336
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:07:38:337
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:07:38:341
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:07:38:379
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:07:38:383
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:07:39:794
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:07:39:803
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:07:39:804
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:07:39:833
+
+[INFO]End parsing; Time=11.11.2015 0:07:43:316
+
+[INFO]Start parsing; Time=11.11.2015 0:07:43:317
+
+[INFO]End parsing; Time=11.11.2015 0:07:54:914
+
+[INFO]Start parsing; Time=11.11.2015 0:07:54:920
+
+[INFO]End parsing; Time=11.11.2015 0:08:00:774
+
+[INFO]Start parsing; Time=11.11.2015 0:08:00:775
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:08:01:844
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:08:05:900
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:08:05:901
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:08:05:907
+
+[INFO]End parsing; Time=11.11.2015 0:08:07:525
+
+[INFO]Start parsing; Time=11.11.2015 0:08:07:528
+
+[INFO]End parsing; Time=11.11.2015 0:08:07:942
+
+[INFO]Start parsing; Time=11.11.2015 0:08:07:943
+
+[INFO]End parsing; Time=11.11.2015 0:08:09:203
+
+[INFO]Start parsing; Time=11.11.2015 0:08:09:204
+
+[INFO]End parsing; Time=11.11.2015 0:08:16:492
+
+[INFO]Start parsing; Time=11.11.2015 0:08:16:494
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:08:20:392
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:08:20:422
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:08:20:423
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:08:20:425
+
+[INFO]End parsing; Time=11.11.2015 0:08:23:399
+
+[INFO]Start parsing; Time=11.11.2015 0:08:23:417
+
+[INFO]End parsing; Time=11.11.2015 0:08:31:241
+
+[INFO]Start parsing; Time=11.11.2015 0:08:31:245
+
+[INFO]End parsing; Time=11.11.2015 0:08:46:320
+
+[INFO]Start parsing; Time=11.11.2015 0:08:46:321
+
+[INFO]End parsing; Time=11.11.2015 0:08:47:424
+
+[INFO]Start parsing; Time=11.11.2015 0:08:47:425
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:08:53:134
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:08:53:137
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:08:53:138
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:08:53:141
+
+[INFO]End parsing; Time=11.11.2015 0:08:56:934
+
+[INFO]Start parsing; Time=11.11.2015 0:08:56:937
+
+[INFO]End parsing; Time=11.11.2015 0:09:01:645
+
+[INFO]Start parsing; Time=11.11.2015 0:09:01:646
+
+[INFO]End parsing; Time=11.11.2015 0:09:09:699
+
+[INFO]Start parsing; Time=11.11.2015 0:09:09:700
+
+[INFO]End parsing; Time=11.11.2015 0:09:10:582
+
+[INFO]Start parsing; Time=11.11.2015 0:09:10:583
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:09:16:810
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:09:16:818
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:09:16:832
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:09:16:838
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:09:16:886
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:09:16:891
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:09:18:244
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:09:18:247
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:09:18:248
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:09:18:250
+
+[INFO]End parsing; Time=11.11.2015 0:09:18:862
+
+[INFO]Start parsing; Time=11.11.2015 0:09:18:864
+
+[INFO]End parsing; Time=11.11.2015 0:09:23:460
+
+[INFO]Start parsing; Time=11.11.2015 0:09:23:466
+
+[INFO]End parsing; Time=11.11.2015 0:09:37:319
+
+[INFO]Start parsing; Time=11.11.2015 0:09:37:321
+
+[INFO]End parsing; Time=11.11.2015 0:09:38:93
+
+[INFO]Start parsing; Time=11.11.2015 0:09:38:96
+
+[INFO]End parsing; Time=11.11.2015 0:09:53:333
+
+[INFO]Start parsing; Time=11.11.2015 0:09:53:337
+
+[INFO]End parsing; Time=11.11.2015 0:10:04:4
+
+[INFO]Start parsing; Time=11.11.2015 0:10:04:7
+
+[INFO]End parsing; Time=11.11.2015 0:10:09:552
+
+[INFO]Start parsing; Time=11.11.2015 0:10:09:563
+
+[INFO]End parsing; Time=11.11.2015 0:10:10:674
+
+[INFO]Start parsing; Time=11.11.2015 0:10:10:690
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:10:17:155
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:10:17:160
+
+[INFO]End parsing; Time=11.11.2015 0:10:23:723
+
+[INFO]Start parsing; Time=11.11.2015 0:10:23:725
+
+[INFO]End parsing; Time=11.11.2015 0:10:24:704
+
+[INFO]Start parsing; Time=11.11.2015 0:10:24:710
+
+[INFO]End parsing; Time=11.11.2015 0:10:24:817
+
+[INFO]Start parsing; Time=11.11.2015 0:10:24:820
+
+[INFO]End parsing; Time=11.11.2015 0:10:38:447
+
+[INFO]Start parsing; Time=11.11.2015 0:10:38:447
+
+[INFO]End parsing; Time=11.11.2015 0:10:40:334
+
+[INFO]Start parsing; Time=11.11.2015 0:10:40:335
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:10:45:532
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:10:49:587
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:10:49:588
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:10:49:590
+
+[INFO]End parsing; Time=11.11.2015 0:10:52:104
+
+[INFO]Start parsing; Time=11.11.2015 0:10:52:105
+
+[INFO]End parsing; Time=11.11.2015 0:10:55:324
+
+[INFO]Start parsing; Time=11.11.2015 0:10:55:325
+
+[INFO]End parsing; Time=11.11.2015 0:11:11:845
+
+[INFO]Start parsing; Time=11.11.2015 0:11:11:846
+
+[INFO]End parsing; Time=11.11.2015 0:11:13:605
+
+[INFO]Start parsing; Time=11.11.2015 0:11:13:607
+
+[INFO]End parsing; Time=11.11.2015 0:11:24:560
+
+[INFO]Start parsing; Time=11.11.2015 0:11:24:561
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:11:26:112
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:11:27:519
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:11:27:519
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:11:27:522
+
+[INFO]End parsing; Time=11.11.2015 0:11:29:327
+
+[INFO]Start parsing; Time=11.11.2015 0:11:29:328
+
+[INFO]End parsing; Time=11.11.2015 0:11:34:600
+
+[INFO]Start parsing; Time=11.11.2015 0:11:34:602
+
+[INFO]End parsing; Time=11.11.2015 0:11:38:464
+
+[INFO]Start parsing; Time=11.11.2015 0:11:38:465
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:11:46:294
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:11:46:303
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:11:46:303
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:11:56:586
+
+[INFO]End parsing; Time=11.11.2015 0:11:56:589
+
+[INFO]Start parsing; Time=11.11.2015 0:11:56:593
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:12:08:314
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:12:08:335
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:12:08:336
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:12:11:875
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:12:14:127
+
+[INFO]End parsing; Time=11.11.2015 0:12:17:137
+
+[INFO]Start parsing; Time=11.11.2015 0:12:17:139
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:12:17:876
+
+[INFO]End parsing; Time=11.11.2015 0:12:20:19
+
+[INFO]Start parsing; Time=11.11.2015 0:12:20:31
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:12:21:851
+
+[INFO]End parsing; Time=11.11.2015 0:12:22:192
+
+[INFO]Start parsing; Time=11.11.2015 0:12:22:207
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:12:23:825
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:12:23:825
+
+[INFO]End parsing; Time=11.11.2015 0:12:30:904
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:12:30:918
+
+[INFO]Start parsing; Time=11.11.2015 0:12:30:923
+
+[INFO]End parsing; Time=11.11.2015 0:12:37:977
+
+[INFO]Start parsing; Time=11.11.2015 0:12:37:981
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:12:42:15
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:12:42:34
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:12:42:36
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:12:45:722
+
+[INFO]End parsing; Time=11.11.2015 0:12:53:817
+
+[INFO]Start parsing; Time=11.11.2015 0:12:53:818
+
+[INFO]End parsing; Time=11.11.2015 0:12:54:602
+
+[INFO]Start parsing; Time=11.11.2015 0:12:54:603
+
+[INFO]End PostData ----------------------------------------; Time=11.11.2015 0:12:55:387
+
+[INFO]End parsing; Time=11.11.2015 0:12:57:16
+
+[INFO]Start parsing; Time=11.11.2015 0:12:57:17
+
+[INFO]Start GetData ----------------------------------------; Time=11.11.2015 0:12:58:433
+
+[INFO]End GetData ----------------------------------------; Time=11.11.2015 0:12:58:433
+
+[INFO]End parsing; Time=11.11.2015 0:13:05:892
+
+[INFO]Start parsing; Time=11.11.2015 0:13:05:904
+
+[INFO]Start PostData ----------------------------------------; Time=11.11.2015 0:13:05:896
+
+[INFO]End parsing; Time=11.11.2015 0:13:10:800
+
+[INFO]Start parsing; Time=11.11.2015 0:13:10:804
+
+[INFO]End parsing; Time=11.11.2015 0:13:11:29
+
+[INFO]Start parsing; Time=11.11.2015 0:13:11:35
+
+[INFO]End parsing; Time=11.11.2015 0:13:28:658
+
+[INFO]Start parsing; Time=11.11.2015 0:13:28:660
+
+[INFO]End parsing; Time=11.11.2015 0:13:28:830
+
+[INFO]Start parsing; Time=11.11.2015 0:13:28:833
+

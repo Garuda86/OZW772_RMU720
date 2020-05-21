@@ -1,0 +1,90 @@
+<!-- &copy; Siemens AG 2007 -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>OZW772.04</title>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<meta http-equiv="Content-Style-Type" content="text/css"/>
+<link rel="stylesheet" type="text/css" href="./layout/default/css/dialog/dialog_style.css" />
+<link rel="stylesheet" type="text/css" href="./layout/default/css/dialog/vala.css" />
+<script src="./js/dialog/vala.js" type="text/javascript"></script>
+<script src="./js/dialog/slider.js" type="text/javascript"></script>
+<script src="./js/dialog/dialog_common.js" type="text/javascript"></script>
+</head>
+<body class="dialog">
+<form name="dialogform" action="/dialog.app?SessionId=4c9be254-d49c-44de-9d99-d21309e19838" method="post" onsubmit="return CheckSlider()" enctype="multipart/form-data" accept-charset="UTF-8">
+<input type="hidden" name="action" value="update"/>
+<input type="hidden" name="DpDescription" value="COzwValI16"/>
+<input type="hidden" name="id" value="2537"/>
+<input type="hidden" name="min" value="20.0" />
+<input type="hidden" name="max" value="20.0" />
+<input type="hidden" name="res" value="0.1" />
+<input type="hidden" name="decimals" value="1" />
+<input type="hidden" name="unit" value="°C" />
+<input type="hidden" name="infotext" value="Entry corrected" />
+<input type="hidden" name="HasOSV" value="false" />
+<div class="control-position">
+<div class="control-row-title">
+<div class="control-cell-title">Precomfort heating setpoint</div>
+</div>
+<div class="control-row-input">
+<div class="control-cell-input">
+<div class="control-pos-input" >
+<input type="text" class="input-middle" name="val"  onchange="Numeric.CheckNumber()" maxlength="5" value="20.0" />
+</div>
+<div class="arrow up" onclick="SliderUp();" title=""> </div>
+<div class="arrow down" onclick="SliderDown();"  title=""></div>
+</div>
+<div class="control-cell-checkbox">
+</div>
+</div>
+<div class="control-row-slider">
+<div class="control-cell-slider">
+<div id="lower">
+</div>
+<div id="upper">
+</div>
+</div>
+</div>
+<div class="control-row-button" >
+<div class="control-cell-button" >
+<div id="pix_info">
+<img src="./layout/default/img/empty.png" alt="" name="p_info" />
+</div>
+<div id="info">
+</div>
+<div class="dialog submit">
+ <input name="OK" type="submit" class="buttons"  value="OK" title="" /></div>
+<div class="dialog cancel">
+<input name="cancel" type="button"  class="buttons" value="Cancel" onclick="window.close()" title="" /></div>
+</div>
+</div>
+</div>
+</form>
+<script type="text/javascript">
+//<![CDATA[
+InitValA();
+superviseOpener();
+//]]>
+</script>
+<div id="scroll">
+<script type="text/javascript">
+var A_INIT = {
+'s_form' : 'dialogform',
+'s_name': 'val',
+'n_minValue' :20.0,
+'n_maxValue' :20.0,
+'n_value' :20.0,
+'n_step' :0.1
+}
+var numeric_slider = new slider(A_INIT, A_TPL);
+function update_slider(val)
+{
+numeric_slider.f_setValue(val);
+}
+</script>
+</div>
+</body>
+</html>
